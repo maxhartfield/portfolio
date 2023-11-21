@@ -1,9 +1,18 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import NavBar from "./components/Navbar";
+import Home from "./pages/Home";
+import ProjectPage from "./pages/ProjectPage";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <h1>Hello World!</h1>
+    <Router>
+      <NavBar></NavBar>
+      <Routes>
+        <Route path="/portfolio/Home" element={<Home />}></Route>
+        <Route path="/portfolio/Projects" element={<ProjectPage />}></Route>
+      </Routes>
+    </Router>
   );
 }
 
