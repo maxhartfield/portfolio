@@ -2,7 +2,7 @@ import React from "react";
 import NavBar from "./components/Navbar";
 import Home from "./pages/Home";
 import ProjectPage from "./pages/ProjectPage";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
