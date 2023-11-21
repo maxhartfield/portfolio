@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "../components/Image";
-import profile from "../Profile.jpeg";
+import profile from "../images/Profile.jpeg";
 
 function Home() {
   return (
