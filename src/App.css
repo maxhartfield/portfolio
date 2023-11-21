@@ -1,0 +1,24 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-secondary-rgb), var(--bs-bg-opacity)) !important;
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
+    text-align: center !important;
+  }
+
+  .small {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 25%;
+    max-height: 25%;
+    border-radius: 50%;
+  }
+
+  .footer {
+    position: absolute;
+    bottom: 30px;
+    width: 100%;
+  }
