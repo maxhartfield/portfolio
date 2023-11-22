@@ -1,12 +1,12 @@
 import React from "react";
-import Image from "../components/ProfileImage";
+import Image from "../components/Image";
 import profile from "../images/Profile.jpeg";
 
 function Home() {
   return (
     <>
       <div className="p-3 mb-2 bg-secondary text-white text-center">
-        <Image src={profile}></Image>
+        <Image className="profile-img" src={profile}></Image>
         <h1>Hello I'm Max Hartfield!</h1>
         <h2>
           I am a student at the University of Texas at Austin, majoring in
