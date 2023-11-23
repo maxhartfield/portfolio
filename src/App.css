@@ -1,11 +1,12 @@
 body {
-    width: 100vw;
-    height: 100vh;
+    min-width: 100vw;
+    min-height: 100vh;
     --bs-bg-opacity: 1;
     background-color: rgba(var(--bs-secondary-rgb), var(--bs-bg-opacity)) !important;
     --bs-text-opacity: 1;
     color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
     text-align: center !important;
+    position: relative;
   }
 
   .project-img {
@@ -26,9 +27,11 @@ body {
   }
 
   .footer {
-    position: absolute;
-    bottom: 30px;
+    position:absolute;
+    bottom:0; 
     width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 
   .project-container {
@@ -37,4 +40,13 @@ body {
     margin:10px;
     padding:10px;
     border-radius: 25px;
+    border: blue;
   }
+
+.project-container:hover {
+  opacity: 75%;
+}
+
+.spacer {
+  opacity: 0%;
+}
