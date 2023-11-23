@@ -3,17 +3,20 @@ import NavBar from "./components/Navbar";
 import Home from "./pages/Home";
 import ProjectPage from "./pages/ProjectPage";
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
-import ChessWebsite from "./components/Chess_Website";
-import DodgeAdventure from "./components/Dodge_Adventure";
+import ChessWebsite from "./pages/ChessWebsite";
+import DodgeAdventure from "./pages/DodgeAdventure";
+import Achievements from "./pages/Achievements";
+import EagleScout from "./pages/EagleScout";
 function App() {
   return (
     <>
       <Router>
         <NavBar></NavBar>
         <Routes>
+          <Route path="/" element={<Home />}></Route>
           <Route path="/Home" element={<Home />}></Route>
           <Route path="/Projects" element={<ProjectPage />}></Route>
-          <Route path="/" element={<Home />}></Route>
+          <Route path="/Achievements" element={<Achievements />}></Route>
           <Route
             path="/Projects/Chess-Website"
             element={<ChessWebsite />}
@@ -21,6 +24,10 @@ function App() {
           <Route
             path="/Projects/Dodge-Adventure"
             element={<DodgeAdventure />}
+          ></Route>
+          <Route
+            path="/Achievements/Eagle-Scout"
+            element={<EagleScout />}
           ></Route>
         </Routes>
       </Router>

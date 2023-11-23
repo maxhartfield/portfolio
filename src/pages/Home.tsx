@@ -15,7 +15,9 @@ function Home() {
         <h2>
           I am looking for a software engineering internship for summer 2024.
         </h2>
-        <h2> Take a look at my projects!</h2>
+        <h2>
+          Use the navigation bar and look at my projects and achievements!
+        </h2>
       </div>
     </>
   );

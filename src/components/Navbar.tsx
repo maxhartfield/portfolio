@@ -1,4 +1,3 @@
-import React from "react";
 import { NavLink } from "react-router-dom";
 
 function Navbar() {
@@ -11,6 +10,9 @@ function Navbar() {
           </NavLink>
           <NavLink className="nav-item nav-link " to="/Projects">
             Projects
+          </NavLink>
+          <NavLink className="nav-item nav-link " to="/Achievements">
+            Achievements
           </NavLink>
         </div>
       </nav>
