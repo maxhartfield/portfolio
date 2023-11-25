@@ -7,6 +7,7 @@ import ChessWebsite from "./pages/ChessWebsite";
 import DodgeAdventure from "./pages/DodgeAdventure";
 import Achievements from "./pages/Achievements";
 import EagleScout from "./pages/EagleScout";
+import UTCSShell from "./pages/UTCSShell";
 function App() {
   return (
     <>
@@ -25,6 +26,7 @@ function App() {
             path="/Projects/Dodge-Adventure"
             element={<DodgeAdventure />}
           ></Route>
+          <Route path="/Projects/UTCS-Shell" element={<UTCSShell />}></Route>
           <Route
             path="/Achievements/Eagle-Scout"
             element={<EagleScout />}

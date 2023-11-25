@@ -2,7 +2,7 @@ import React from "react";
 import Project from "../components/Project";
 import ChessWebsite from "../images/Chess-Website.png";
 import DodgeAdventure from "../images/Dodge-Adventure.png";
-
+import UTCSShell from "../images/UTCSShell.png";
 function ProjectPage() {
   return (
     <>
@@ -17,6 +17,20 @@ function ProjectPage() {
         image={DodgeAdventure}
         skills={["Java"]}
         link="/Projects/Dodge-Adventure"
+      ></Project>
+      <Project
+        name="UTSC-Shell"
+        image={UTCSShell}
+        skills={[
+          "C",
+          "Collaborative",
+          "Linux",
+          "Unix",
+          "Concurrency",
+          "Paralellism",
+          "Operating System",
+        ]}
+        link="/Projects/UTCS-Shell"
       ></Project>
     </>
   );
