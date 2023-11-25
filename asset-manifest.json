@@ -1,22 +1,24 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.1aa80aa2.css",
-    "main.js": "/portfolio/static/js/main.83312067.js",
+    "main.css": "/portfolio/static/css/main.0a518c31.css",
+    "main.js": "/portfolio/static/js/main.920bd4fb.js",
     "static/media/Eagle-Project.jpg": "/portfolio/static/media/Eagle-Project.47f6972e4bba24df4b8e.jpg",
     "static/media/Chess-Website5.png": "/portfolio/static/media/Chess-Website5.d1603f39625b236ece11.png",
     "static/media/Chess-Website3.png": "/portfolio/static/media/Chess-Website3.44824c3cf2f31653af26.png",
     "static/media/Chess-Website2.png": "/portfolio/static/media/Chess-Website2.6ec3ba2f1b0ec1c74415.png",
     "static/media/Chess-Website.png": "/portfolio/static/media/Chess-Website.18ecdfae90ebd1860b83.png",
     "static/media/Chess-Website4.png": "/portfolio/static/media/Chess-Website4.d940bdb701b6034f546d.png",
+    "static/media/EagleScout.png": "/portfolio/static/media/EagleScout.299e1b639a815b04925b.png",
+    "static/media/EagleScout2.png": "/portfolio/static/media/EagleScout2.9def1db3ba2c6aaac1fd.png",
     "static/media/UTCSShell.png": "/portfolio/static/media/UTCSShell.cabbea20bc6f202c8b6b.png",
     "static/media/Profile.jpeg": "/portfolio/static/media/Profile.02b6fbc28b67d66cc119.jpeg",
     "static/media/Dodge-Adventure.png": "/portfolio/static/media/Dodge-Adventure.7473332490e378d8d7a3.png",
     "index.html": "/portfolio/index.html",
-    "main.1aa80aa2.css.map": "/portfolio/static/css/main.1aa80aa2.css.map",
-    "main.83312067.js.map": "/portfolio/static/js/main.83312067.js.map"
+    "main.0a518c31.css.map": "/portfolio/static/css/main.0a518c31.css.map",
+    "main.920bd4fb.js.map": "/portfolio/static/js/main.920bd4fb.js.map"
   },
   "entrypoints": [
-    "static/css/main.1aa80aa2.css",
-    "static/js/main.83312067.js"
+    "static/css/main.0a518c31.css",
+    "static/js/main.920bd4fb.js"
   ]
 }
