@@ -1,11 +1,11 @@
 import Project from "../components/Project";
-import EagleProject from "../images/Eagle-Project.jpg";
+import EagleScout from "../images/EagleScout2.png";
 function Achievements() {
   return (
     <>
       <Project
         name="Eagle Scout"
-        image={EagleProject}
+        image={EagleScout}
         skills={["Leadership", "Teamwork", "Communication"]}
         link="/Achievements/Eagle-Scout"
       ></Project>
