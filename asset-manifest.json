@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.0a518c31.css",
-    "main.js": "/portfolio/static/js/main.920bd4fb.js",
+    "main.css": "/portfolio/static/css/main.d664630b.css",
+    "main.js": "/portfolio/static/js/main.de343aa8.js",
     "static/media/Eagle-Project.jpg": "/portfolio/static/media/Eagle-Project.47f6972e4bba24df4b8e.jpg",
     "static/media/Chess-Website5.png": "/portfolio/static/media/Chess-Website5.d1603f39625b236ece11.png",
     "static/media/Chess-Website3.png": "/portfolio/static/media/Chess-Website3.44824c3cf2f31653af26.png",
@@ -14,11 +14,11 @@
     "static/media/Profile.jpeg": "/portfolio/static/media/Profile.02b6fbc28b67d66cc119.jpeg",
     "static/media/Dodge-Adventure.png": "/portfolio/static/media/Dodge-Adventure.7473332490e378d8d7a3.png",
     "index.html": "/portfolio/index.html",
-    "main.0a518c31.css.map": "/portfolio/static/css/main.0a518c31.css.map",
-    "main.920bd4fb.js.map": "/portfolio/static/js/main.920bd4fb.js.map"
+    "main.d664630b.css.map": "/portfolio/static/css/main.d664630b.css.map",
+    "main.de343aa8.js.map": "/portfolio/static/js/main.de343aa8.js.map"
   },
   "entrypoints": [
-    "static/css/main.0a518c31.css",
-    "static/js/main.920bd4fb.js"
+    "static/css/main.d664630b.css",
+    "static/js/main.de343aa8.js"
   ]
 }
