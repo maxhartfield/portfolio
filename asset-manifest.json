@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.089a8376.css",
-    "main.js": "/portfolio/static/js/main.e648561b.js",
+    "main.css": "/portfolio/static/css/main.e1ca8b42.css",
+    "main.js": "/portfolio/static/js/main.79fb42d0.js",
     "static/media/GymnasticsVideo3.mov": "/portfolio/static/media/GymnasticsVideo3.cc67558869239a16d2e3.mov",
     "static/media/GymnasticsVideo4.mov": "/portfolio/static/media/GymnasticsVideo4.ac3a0fe167444882f1bf.mov",
     "static/media/GymnasticsVideo2.mov": "/portfolio/static/media/GymnasticsVideo2.29bf895a15d516f547fb.mov",
@@ -24,11 +24,11 @@
     "static/media/Profile.jpeg": "/portfolio/static/media/Profile.02b6fbc28b67d66cc119.jpeg",
     "static/media/Dodge-Adventure.png": "/portfolio/static/media/Dodge-Adventure.7473332490e378d8d7a3.png",
     "index.html": "/portfolio/index.html",
-    "main.089a8376.css.map": "/portfolio/static/css/main.089a8376.css.map",
-    "main.e648561b.js.map": "/portfolio/static/js/main.e648561b.js.map"
+    "main.e1ca8b42.css.map": "/portfolio/static/css/main.e1ca8b42.css.map",
+    "main.79fb42d0.js.map": "/portfolio/static/js/main.79fb42d0.js.map"
   },
   "entrypoints": [
-    "static/css/main.089a8376.css",
-    "static/js/main.e648561b.js"
+    "static/css/main.e1ca8b42.css",
+    "static/js/main.79fb42d0.js"
   ]
 }
