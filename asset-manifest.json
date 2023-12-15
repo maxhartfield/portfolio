@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.e1ca8b42.css",
-    "main.js": "/portfolio/static/js/main.3ab22e15.js",
+    "main.css": "/portfolio/static/css/main.0d8a5d37.css",
+    "main.js": "/portfolio/static/js/main.d50d39f8.js",
     "static/media/GymnasticsVideo3.mov": "/portfolio/static/media/GymnasticsVideo3.cc67558869239a16d2e3.mov",
     "static/media/GymnasticsVideo4.mov": "/portfolio/static/media/GymnasticsVideo4.ac3a0fe167444882f1bf.mov",
     "static/media/GymnasticsVideo2.mov": "/portfolio/static/media/GymnasticsVideo2.29bf895a15d516f547fb.mov",
     "static/media/Dodge-Adventure.mov": "/portfolio/static/media/Dodge-Adventure.b9897d2763d613276ad5.mov",
     "static/media/GymnasticsVideo1.mov": "/portfolio/static/media/GymnasticsVideo1.435c6f2684b0c07ad20a.mov",
     "static/media/Community-Coding.png": "/portfolio/static/media/Community-Coding.03f7c923428dbc51ec56.png",
+    "static/media/Portfolio.png": "/portfolio/static/media/Portfolio.6df206ad4b9acd01d823.png",
     "static/media/Eagle-Project.jpg": "/portfolio/static/media/Eagle-Project.47f6972e4bba24df4b8e.jpg",
     "static/media/Eagle-Project5.jpeg": "/portfolio/static/media/Eagle-Project5.b985650d4c14aa1a57c4.jpeg",
     "static/media/Eagle-Project4.jpeg": "/portfolio/static/media/Eagle-Project4.7418735b165f975a2c5e.jpeg",
@@ -17,6 +18,8 @@
     "static/media/Chess-Website2.png": "/portfolio/static/media/Chess-Website2.6ec3ba2f1b0ec1c74415.png",
     "static/media/Chess-Website.png": "/portfolio/static/media/Chess-Website.18ecdfae90ebd1860b83.png",
     "static/media/Chess-Website4.png": "/portfolio/static/media/Chess-Website4.d940bdb701b6034f546d.png",
+    "static/media/DMA.png": "/portfolio/static/media/DMA.05f1edfb8f82eeb9fcdb.png",
+    "static/media/FreeList.png": "/portfolio/static/media/FreeList.6235e8358afd50404b42.png",
     "static/media/EagleScout.png": "/portfolio/static/media/EagleScout.299e1b639a815b04925b.png",
     "static/media/GymnasticsImage.jpg": "/portfolio/static/media/GymnasticsImage.831612ccd9ca2f471c96.jpg",
     "static/media/EagleScout2.png": "/portfolio/static/media/EagleScout2.9def1db3ba2c6aaac1fd.png",
@@ -24,11 +27,11 @@
     "static/media/Profile.jpeg": "/portfolio/static/media/Profile.02b6fbc28b67d66cc119.jpeg",
     "static/media/Dodge-Adventure.png": "/portfolio/static/media/Dodge-Adventure.7473332490e378d8d7a3.png",
     "index.html": "/portfolio/index.html",
-    "main.e1ca8b42.css.map": "/portfolio/static/css/main.e1ca8b42.css.map",
-    "main.3ab22e15.js.map": "/portfolio/static/js/main.3ab22e15.js.map"
+    "main.0d8a5d37.css.map": "/portfolio/static/css/main.0d8a5d37.css.map",
+    "main.d50d39f8.js.map": "/portfolio/static/js/main.d50d39f8.js.map"
   },
   "entrypoints": [
-    "static/css/main.e1ca8b42.css",
-    "static/js/main.3ab22e15.js"
+    "static/css/main.0d8a5d37.css",
+    "static/js/main.d50d39f8.js"
   ]
 }
