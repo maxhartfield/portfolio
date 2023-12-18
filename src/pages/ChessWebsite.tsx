@@ -7,9 +7,14 @@ import ChessWebsite5 from "../images/Chess-Website5.png";
 function ChessWebsite() {
   return (
     <>
-      <h1>Chess-Website</h1>
+      <div className="spacer">.........</div>
+      <div className="spacer">.........</div>
+      <div className="spacer">.........</div>
+      <div className="spacer">.........</div>
+      <div className="spacer">.........</div>
+      <h1>Chess Website</h1>
       <h3>
-        Chess-Website is a website that two people can play chess on using the
+        Chess Website is a website that two people can play chess on using the
         same computer. I tought myself HTML, CSS, and JavaScript and made this
         website over the summer of 2023 using what I learned. This project was
         extremely fun to make since I play chess as a hobby. This project
@@ -18,7 +23,8 @@ function ChessWebsite() {
       </h3>
       <Image className="info-img" src={ChessWebsite2}></Image>
       <h3>
-        The chess pieces are unicode characters. The possible moves for each
+        The chess pieces are unicode characters. I implemented a user friendly
+        design throughout this project with CSS. The possible moves for each
         piece are highlighted in green. The last move is highlighted in yellow.
         The clicked piece is highlighted in black. The hovered square is
         highlighted blue.

@@ -8,10 +8,18 @@ import DodgeAdventure from "./pages/DodgeAdventure";
 import Achievements from "./pages/Achievements";
 import EagleScout from "./pages/EagleScout";
 import UTCSShell from "./pages/UTCSShell";
+import CommunityCoding from "./pages/CommunityCoding";
+import Gymnastics from "./pages/Gymnastics";
+import ScrollToTop from "./components/ScrollToTop";
+import DynamicMemoryAllocator from "./pages/DynamicMemoryAllocator";
+import PortfolioWebsite from "./pages/PortfolioWebsite";
+import Charm from "./pages/Charm";
+import Pintos from "./pages/Pintos";
 function App() {
   return (
     <>
       <Router>
+        <ScrollToTop />
         <NavBar></NavBar>
         <Routes>
           <Route path="/" element={<Home />}></Route>
@@ -28,11 +36,31 @@ function App() {
           ></Route>
           <Route path="/Projects/UTCS-Shell" element={<UTCSShell />}></Route>
           <Route
+            path="/Projects/Dynamic-Memory-Allocator"
+            element={<DynamicMemoryAllocator />}
+          ></Route>
+          <Route path="/Projects/chArm" element={<Charm />}></Route>
+          <Route
+            path="/Projects/Portfolio-Website"
+            element={<PortfolioWebsite />}
+          ></Route>
+          <Route path="/Projects/Pintos" element={<Pintos />}></Route>
+          <Route
             path="/Achievements/Eagle-Scout"
             element={<EagleScout />}
           ></Route>
+          <Route
+            path="/Achievements/Community-Coding"
+            element={<CommunityCoding />}
+          ></Route>
+          <Route
+            path="/Achievements/Gymnastics"
+            element={<Gymnastics />}
+          ></Route>
         </Routes>
       </Router>
+      <div className="spacer">.........</div>
+      <div className="spacer">.........</div>
       <div className="footer">
         {"Contact me: "}
         <a className="text-white" href="mailto:maxhartfield@utexas.edu">
