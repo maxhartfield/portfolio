@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.b5a82d27.css",
-    "main.js": "/portfolio/static/js/main.f26b766c.js",
+    "main.js": "/portfolio/static/js/main.2c3fa14f.js",
     "static/media/GymnasticsVideo3.mov": "/portfolio/static/media/GymnasticsVideo3.cc67558869239a16d2e3.mov",
     "static/media/GymnasticsVideo4.mov": "/portfolio/static/media/GymnasticsVideo4.ac3a0fe167444882f1bf.mov",
     "static/media/GymnasticsVideo2.mov": "/portfolio/static/media/GymnasticsVideo2.29bf895a15d516f547fb.mov",
@@ -18,9 +18,14 @@
     "static/media/Chess-Website2.png": "/portfolio/static/media/Chess-Website2.6ec3ba2f1b0ec1c74415.png",
     "static/media/Chess-Website.png": "/portfolio/static/media/Chess-Website.18ecdfae90ebd1860b83.png",
     "static/media/Chess-Website4.png": "/portfolio/static/media/Chess-Website4.d940bdb701b6034f546d.png",
+    "static/media/decode.png": "/portfolio/static/media/decode.77e781919f23ebdb78ac.png",
+    "static/media/m&w.png": "/portfolio/static/media/m&w.76800dd31ab29b81e1a4.png",
+    "static/media/fetch.png": "/portfolio/static/media/fetch.bf4980fd1466d9e2b490.png",
     "static/media/DMA.png": "/portfolio/static/media/DMA.05f1edfb8f82eeb9fcdb.png",
     "static/media/FreeList.png": "/portfolio/static/media/FreeList.6235e8358afd50404b42.png",
+    "static/media/charm.png": "/portfolio/static/media/charm.7f72f979c0f857f4ffca.png",
     "static/media/EagleScout.png": "/portfolio/static/media/EagleScout.299e1b639a815b04925b.png",
+    "static/media/execute.png": "/portfolio/static/media/execute.33a7add3c34d0993c39a.png",
     "static/media/GymnasticsImage.jpg": "/portfolio/static/media/GymnasticsImage.831612ccd9ca2f471c96.jpg",
     "static/media/EagleScout2.png": "/portfolio/static/media/EagleScout2.9def1db3ba2c6aaac1fd.png",
     "static/media/UTCSShell.png": "/portfolio/static/media/UTCSShell.cabbea20bc6f202c8b6b.png",
@@ -32,10 +37,10 @@
     "static/media/OS.jpeg": "/portfolio/static/media/OS.902f1f6a0eaa7cec14a2.jpeg",
     "index.html": "/portfolio/index.html",
     "main.b5a82d27.css.map": "/portfolio/static/css/main.b5a82d27.css.map",
-    "main.f26b766c.js.map": "/portfolio/static/js/main.f26b766c.js.map"
+    "main.2c3fa14f.js.map": "/portfolio/static/js/main.2c3fa14f.js.map"
   },
   "entrypoints": [
     "static/css/main.b5a82d27.css",
-    "static/js/main.f26b766c.js"
+    "static/js/main.2c3fa14f.js"
   ]
 }
