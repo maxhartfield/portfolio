@@ -1,5 +1,3 @@
-import { Player } from "video-react";
-import ScrollToTop from "../components/ScrollToTop";
 const video1 = require("../videos/GymnasticsVideo1.mov");
 const video2 = require("../videos/GymnasticsVideo2.mov");
 const video3 = require("../videos/GymnasticsVideo3.mov");
@@ -23,20 +21,26 @@ function Gymnastics() {
         eventually qualified for nationals. Here are some of my highlights:
       </h3>
       <div className="spacer">.........</div>
+      <video className="video" controls>
+        <source src={video4 + "#t=0.001"}></source>
+      </video>
+      <div className="spacer">.........</div>
       <div className="video">
-        <Player playsInline src={video4} />
+        <video className="video" controls>
+          <source src={video2 + "#t=0.001"}></source>
+        </video>
       </div>
       <div className="spacer">.........</div>
       <div className="video">
-        <Player playsInline src={video2} />
+        <video className="video" controls>
+          <source src={video1 + "#t=0.001"}></source>
+        </video>
       </div>
       <div className="spacer">.........</div>
       <div className="video">
-        <Player playsInline src={video1} />
-      </div>
-      <div className="spacer">.........</div>
-      <div className="video">
-        <Player playsInline src={video3} />
+        <video className="video" controls>
+          <source src={video3 + "#t=0.001"}></source>
+        </video>
       </div>
       <div className="spacer">.........</div>
       <div className="spacer">.........</div>

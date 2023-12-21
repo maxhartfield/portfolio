@@ -20,9 +20,9 @@ function DodgeAdventure() {
         code in Java and create a game from scratch.
       </h3>
       <div className="spacer">.........</div>
-      <div className="video">
-        <Player playsInline poster="" src={video} />
-      </div>
+      <video className="video" controls>
+        <source src={video + "#t=0.001"} type="video/mp4"></source>
+      </video>
       <div className="spacer">.........</div>
       <div className="spacer">.........</div>
     </>

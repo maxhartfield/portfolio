@@ -1,8 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "bootstrap/dist/css/bootstrap.css";
-import "video-react/dist/video-react.css";
-
 import "./App.css";
 import App from "./App";
 
