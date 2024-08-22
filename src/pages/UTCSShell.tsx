@@ -1,13 +1,15 @@
+import BackButton from "../components/BackButton";
 import Image from "../components/Image";
 import UTCSShell1 from "../images/UTCSShell.png";
 function UTCSShell() {
   return (
     <>
-      <div className="spacer">.........</div>
-      <div className="spacer">.........</div>
-      <div className="spacer">.........</div>
-      <div className="spacer">.........</div>
-      <div className="spacer">.........</div>
+      <br className="spacer" />
+      <br className="spacer" />
+      <br className="spacer" />
+      <br className="spacer" />
+      <br className="spacer" />
+      <BackButton />
       <h1>UTCS Shell</h1>
       <h3>
         In my operating systems class at the University of Texas at Austin, I
@@ -22,8 +24,8 @@ function UTCSShell() {
         the shell to support scripts, output redirection, and concurrent
         commands.
       </h3>
-      <div className="spacer">.........</div>
-      <div className="spacer">.........</div>
+      <br className="spacer" />
+      <br className="spacer" />
     </>
   );
 }

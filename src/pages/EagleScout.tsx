@@ -5,27 +5,29 @@ import EagleScout3 from "../images/Eagle-Project.jpg";
 import EagleScout4 from "../images/Eagle-Project4.jpeg";
 import EagleScout5 from "../images/Eagle-Project5.jpeg";
 import Welding from "../images/Welding.jpeg";
+import BackButton from "../components/BackButton";
 
 function EagleScout() {
   return (
     <>
-      <div className="spacer">.........</div>
-      <div className="spacer">.........</div>
-      <div className="spacer">.........</div>
-      <div className="spacer">.........</div>
-      <div className="spacer">.........</div>
+      <br className="spacer" />
+      <br className="spacer" />
+      <br className="spacer" />
+      <br className="spacer" />
+      <br className="spacer" />
+      <BackButton />
       <h1>Eagle Scout</h1>
       <h3>
         I have been part of scouting since I was a kid and it has tought me many
         skills like leadership, communication, and teamwork. After many years I
         finally achieved the highest rank, Eagle Scout.
       </h3>
-      <div className="spacer">.........</div>
+      <br className="spacer" />
       <Image className="info-img together" src={EagleScout1}></Image>
 
       <Image className="info-img together" src={EagleScout2}></Image>
 
-      <div className="spacer">.........</div>
+      <br className="spacer" />
       <h3>
         My eagle scout project was a 42 ft x 8 ft screening fence located at
         Saint Andrew’s United Methodist Church in Plano. It took a total of 14
@@ -40,8 +42,8 @@ function EagleScout() {
       <Image className="info-img" src={EagleScout4}></Image>
       <Image className="info-img" src={EagleScout5}></Image>
       <Image className="info-img" src={EagleScout3}></Image>
-      <div className="spacer">.........</div>
-      <div className="spacer">.........</div>
+      <br className="spacer" />
+      <br className="spacer" />
     </>
   );
 }

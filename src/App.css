@@ -14,7 +14,6 @@ body {
     margin-left: auto;
     margin-right: auto;
     max-width: 100%;
-    max-height: 100%;
   }
 
   .profile-img {
@@ -36,7 +35,6 @@ body {
 
   .project-container {
     width:100%;
-    height:25%;
     margin:10px;
     padding:10px;
     border-radius: 25px;
@@ -48,7 +46,7 @@ body {
 }
 
 .spacer {
-  opacity: 0%;
+  padding: .1%;
 }
 
 .info-img {
@@ -90,3 +88,22 @@ h3 {
 .skill {
   font-size: calc(.3em + .5vw);
 }
+
+.back-button {
+  position: fixed;
+  top: 100px;
+  left: 5vw; 
+  font-size: calc(.4em + 1vw);
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  z-index: 1000; 
+}
+
+.back-button:hover {
+  background-color: #0056b3;
+}
+
+

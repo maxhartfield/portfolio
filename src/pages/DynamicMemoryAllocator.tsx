@@ -1,14 +1,16 @@
+import BackButton from "../components/BackButton";
 import Image from "../components/Image";
 import FreeList from "../images/FreeList.png";
 
 function DynamicMemoryAllocator() {
   return (
     <>
-      <div className="spacer">.........</div>
-      <div className="spacer">.........</div>
-      <div className="spacer">.........</div>
-      <div className="spacer">.........</div>
-      <div className="spacer">.........</div>
+      <br className="spacer" />
+      <br className="spacer" />
+      <br className="spacer" />
+      <br className="spacer" />
+      <br className="spacer" />
+      <BackButton />
       <h1>Dynamic Memory Allocator</h1>
       <h3>
         In my computer architecture class at the University of Texas at Austin,
@@ -28,8 +30,8 @@ function DynamicMemoryAllocator() {
         necessary. If there is no space in the free list, then my program will
         request more memory from the operating system.
       </h3>
-      <div className="spacer">.........</div>
-      <div className="spacer">.........</div>
+      <br className="spacer" />
+      <br className="spacer" />
     </>
   );
 }

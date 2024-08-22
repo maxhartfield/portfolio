@@ -1,3 +1,5 @@
+import BackButton from "../components/BackButton";
+
 const video1 = require("../videos/GymnasticsVideo1.mov");
 const video2 = require("../videos/GymnasticsVideo2.mov");
 const video3 = require("../videos/GymnasticsVideo3.mov");
@@ -5,11 +7,12 @@ const video4 = require("../videos/GymnasticsVideo4.mov");
 function Gymnastics() {
   return (
     <>
-      <div className="spacer">.........</div>
-      <div className="spacer">.........</div>
-      <div className="spacer">.........</div>
-      <div className="spacer">.........</div>
-      <div className="spacer">.........</div>
+      <br className="spacer" />
+      <br className="spacer" />
+      <br className="spacer" />
+      <br className="spacer" />
+      <br className="spacer" />
+      <BackButton />
       <h1>Gymnastics National Qualifier</h1>
       <h3>
         I have done gymnastics for 13 years of my life. Although I retired after
@@ -20,30 +23,30 @@ function Gymnastics() {
         gymnastics a week. Despite fracturing my spine twice, I recovered and
         eventually qualified for nationals. Here are some of my highlights:
       </h3>
-      <div className="spacer">.........</div>
+      <br className="spacer" />
       <video className="video" controls>
         <source src={video4 + "#t=0.001"}></source>
       </video>
-      <div className="spacer">.........</div>
+      <br className="spacer" />
       <div className="video">
         <video className="video" controls>
           <source src={video2 + "#t=0.001"}></source>
         </video>
       </div>
-      <div className="spacer">.........</div>
+      <br className="spacer" />
       <div className="video">
         <video className="video" controls>
           <source src={video1 + "#t=0.001"}></source>
         </video>
       </div>
-      <div className="spacer">.........</div>
+      <br className="spacer" />
       <div className="video">
         <video className="video" controls>
           <source src={video3 + "#t=0.001"}></source>
         </video>
       </div>
-      <div className="spacer">.........</div>
-      <div className="spacer">.........</div>
+      <br className="spacer" />
+      <br className="spacer" />
     </>
   );
 }

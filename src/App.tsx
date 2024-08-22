@@ -15,6 +15,8 @@ import DynamicMemoryAllocator from "./pages/DynamicMemoryAllocator";
 import PortfolioWebsite from "./pages/PortfolioWebsite";
 import Charm from "./pages/Charm";
 import Pintos from "./pages/Pintos";
+import CompArch from "./pages/CompArch";
+import OS from "./pages/OS";
 function App() {
   return (
     <>
@@ -34,17 +36,20 @@ function App() {
             path="/Projects/Dodge-Adventure"
             element={<DodgeAdventure />}
           ></Route>
-          <Route path="/Projects/UTCS-Shell" element={<UTCSShell />}></Route>
+          <Route path="/Projects/CompArch" element={<CompArch />}></Route>
+          <Route path="/Projects/OS" element={<OS />}></Route>
+
+          <Route path="/Projects/OS/UTCS-Shell" element={<UTCSShell />}></Route>
           <Route
-            path="/Projects/Dynamic-Memory-Allocator"
+            path="/Projects/CompArch/Dynamic-Memory-Allocator"
             element={<DynamicMemoryAllocator />}
           ></Route>
-          <Route path="/Projects/chArm" element={<Charm />}></Route>
+          <Route path="/Projects/CompArch/chArm" element={<Charm />}></Route>
           <Route
             path="/Projects/Portfolio-Website"
             element={<PortfolioWebsite />}
           ></Route>
-          <Route path="/Projects/Pintos" element={<Pintos />}></Route>
+          <Route path="/Projects/OS/Pintos" element={<Pintos />}></Route>
           <Route
             path="/Achievements/Eagle-Scout"
             element={<EagleScout />}
@@ -59,8 +64,8 @@ function App() {
           ></Route>
         </Routes>
       </Router>
-      <div className="spacer">.........</div>
-      <div className="spacer">.........</div>
+      <br className="spacer" />
+      <br className="spacer" />
       <div className="footer">
         {"Contact me: "}
         <a className="text-white" href="mailto:maxhartfield@utexas.edu">

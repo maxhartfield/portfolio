@@ -1,3 +1,4 @@
+import BackButton from "../components/BackButton";
 import Image from "../components/Image";
 import ChessWebsite2 from "../images/Chess-Website2.png";
 import ChessWebsite3 from "../images/Chess-Website3.png";
@@ -7,11 +8,12 @@ import ChessWebsite5 from "../images/Chess-Website5.png";
 function ChessWebsite() {
   return (
     <>
-      <div className="spacer">.........</div>
-      <div className="spacer">.........</div>
-      <div className="spacer">.........</div>
-      <div className="spacer">.........</div>
-      <div className="spacer">.........</div>
+      <br className="spacer" />
+      <br className="spacer" />
+      <br className="spacer" />
+      <br className="spacer" />
+      <br className="spacer" />
+      <BackButton />
       <h1>Chess Website</h1>
       <h3>
         Chess Website is a website that two people can play chess on using the
@@ -44,8 +46,8 @@ function ChessWebsite() {
         I have added a board editor, so it is possible to start playing from any
         position. I have also added a undo function that undos the last move.
       </h3>
-      <div className="spacer">.........</div>
-      <div className="spacer">.........</div>
+      <br className="spacer" />
+      <br className="spacer" />
     </>
   );
 }

@@ -1,13 +1,14 @@
-import { Player } from "video-react";
+import BackButton from "../components/BackButton";
 const video = require("../videos/Dodge-Adventure.mov");
 function DodgeAdventure() {
   return (
     <>
-      <div className="spacer">.........</div>
-      <div className="spacer">.........</div>
-      <div className="spacer">.........</div>
-      <div className="spacer">.........</div>
-      <div className="spacer">.........</div>
+      <br className="spacer" />
+      <br className="spacer" />
+      <br className="spacer" />
+      <br className="spacer" />
+      <br className="spacer" />
+      <BackButton />
       <h1>Dodge Adventure</h1>
       <h3>
         Dodge Adventure is a game I created in Java using Graphics2D where a red
@@ -19,12 +20,12 @@ function DodgeAdventure() {
         replayability and competition. This project demonstates my ability to
         code in Java and create a game from scratch.
       </h3>
-      <div className="spacer">.........</div>
+      <br className="spacer" />
       <video className="video" controls>
         <source src={video + "#t=0.001"} type="video/mp4"></source>
       </video>
-      <div className="spacer">.........</div>
-      <div className="spacer">.........</div>
+      <br className="spacer" />
+      <br className="spacer" />
     </>
   );
 }

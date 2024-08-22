@@ -3,15 +3,17 @@ import Threads from "../images/Threads.png";
 import UserPrograms from "../images/UserPrograms.png";
 import VM from "../images/VM.png";
 import FS from "../images/FS.png";
+import BackButton from "../components/BackButton";
 
 function Pintos() {
   return (
     <>
-      <div className="spacer">.........</div>
-      <div className="spacer">.........</div>
-      <div className="spacer">.........</div>
-      <div className="spacer">.........</div>
-      <div className="spacer">.........</div>
+      <br className="spacer" />
+      <br className="spacer" />
+      <br className="spacer" />
+      <br className="spacer" />
+      <br className="spacer" />
+      <BackButton />
       <h1>Pintos</h1>
       <h3>
         Pintos is a simple operating system framework for the 80x86
@@ -26,7 +28,7 @@ function Pintos() {
         project demonstrates my understanding of operating systems and how they
         are implemented.
       </h3>
-      <div className="spacer">.........</div>
+      <br className="spacer" />
       <h2>Threads</h2>
       <Image className="info-img" src={Threads}></Image>
       <h3>
@@ -39,7 +41,7 @@ function Pintos() {
         priority to the lower priority thread in order to get hold of the mutex
         it needs as fast as possible.
       </h3>
-      <div className="spacer">.........</div>
+      <br className="spacer" />
       <h2>User Programs</h2>
       <Image className="info-img bigger" src={UserPrograms}></Image>
       <h3>
@@ -49,7 +51,7 @@ function Pintos() {
         allocated one page for the stack for each user program and implemented
         argument passing so the user can successfully make the system calls.
       </h3>
-      <div className="spacer">.........</div>
+      <br className="spacer" />
       <h2>Virtual Memory</h2>
       <Image className="info-img bigger" src={VM}></Image>
       <h3>
@@ -62,7 +64,7 @@ function Pintos() {
         implemented demand paging, where pages get added to physical memory in a
         page fault when they are accessed.
       </h3>
-      <div className="spacer">.........</div>
+      <br className="spacer" />
       <h2>File Systems</h2>
       <Image className="info-img bigger" src={FS}></Image>
       <h3>
@@ -76,8 +78,8 @@ function Pintos() {
         isdir, and inumber in order to allow the file system to support
         subdirectories.
       </h3>
-      <div className="spacer">.........</div>
-      <div className="spacer">.........</div>
+      <br className="spacer" />
+      <br className="spacer" />
     </>
   );
 }

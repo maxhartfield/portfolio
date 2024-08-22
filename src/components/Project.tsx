@@ -25,8 +25,8 @@ function Project({ name, image, skills, link }: Props) {
           </span>
         </NavLink>
       </div>
-      <div className="spacer">.........</div>
-      <div className="spacer">.........</div>
+      <br className="spacer" />
+      <br className="spacer" />
     </>
   );
 }

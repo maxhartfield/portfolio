@@ -2,15 +2,17 @@ import Project from "../components/Project";
 import EagleScout from "../images/EagleScout2.png";
 import CommunityCoding from "../images/Community-Coding.png";
 import Gymnastics from "../images/GymnasticsImage.jpg";
+import BackButton from "../components/BackButton";
 
 function Achievements() {
   return (
     <>
-      <div className="spacer">.........</div>
-      <div className="spacer">.........</div>
-      <div className="spacer">.........</div>
-      <div className="spacer">.........</div>
-      <div className="spacer">.........</div>
+      <br className="spacer" />
+      <br className="spacer" />
+      <br className="spacer" />
+      <br className="spacer" />
+      <br className="spacer" />
+      <BackButton />
       <div className="container">
         <div className="row">
           <div className="col">
@@ -45,8 +47,8 @@ function Achievements() {
         </div>
       </div>
 
-      <div className="spacer">.........</div>
-      <div className="spacer">.........</div>
+      <br className="spacer" />
+      <br className="spacer" />
     </>
   );
 }

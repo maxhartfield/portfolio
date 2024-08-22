@@ -1,13 +1,15 @@
+import BackButton from "../components/BackButton";
 import Image from "../components/Image";
 import CommunityCoding1 from "../images/Community-Coding.png";
 function CommunityCoding() {
   return (
     <>
-      <div className="spacer">.........</div>
-      <div className="spacer">.........</div>
-      <div className="spacer">.........</div>
-      <div className="spacer">.........</div>
-      <div className="spacer">.........</div>
+      <br className="spacer" />
+      <br className="spacer" />
+      <br className="spacer" />
+      <br className="spacer" />
+      <br className="spacer" />
+      <BackButton />
       <h1>Community Coding</h1>
       <h3>
         I offered free Java lessons to members of the community in collaboration
@@ -17,8 +19,8 @@ function CommunityCoding() {
         communicate effectively and my passion for coding.
       </h3>
       <Image className="info-img" src={CommunityCoding1}></Image>
-      <div className="spacer">.........</div>
-      <div className="spacer">.........</div>
+      <br className="spacer" />
+      <br className="spacer" />
     </>
   );
 }
