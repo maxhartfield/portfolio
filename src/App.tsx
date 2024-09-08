@@ -15,6 +15,7 @@ import DynamicMemoryAllocator from "./pages/DynamicMemoryAllocator";
 import PortfolioWebsite from "./pages/PortfolioWebsite";
 import Charm from "./pages/Charm";
 import Pintos from "./pages/Pintos";
+import SWE from "./pages/SWE";
 function App() {
   return (
     <>
@@ -44,6 +45,7 @@ function App() {
             path="/Projects/Portfolio-Website"
             element={<PortfolioWebsite />}
           ></Route>
+          <Route path="/Projects/SWE" element={<SWE />}></Route>
           <Route path="/Projects/Pintos" element={<Pintos />}></Route>
           <Route
             path="/Achievements/Eagle-Scout"
