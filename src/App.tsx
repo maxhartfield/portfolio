@@ -1,4 +1,3 @@
-import React from "react";
 import NavBar from "./components/Navbar";
 import Home from "./pages/Home";
 import ProjectPage from "./pages/ProjectPage";
@@ -17,6 +16,7 @@ import Charm from "./pages/Charm";
 import Pintos from "./pages/Pintos";
 import CompArch from "./pages/CompArch";
 import OS from "./pages/OS";
+import TTS from "./pages/TTS";
 function App() {
   return (
     <>
@@ -50,6 +50,7 @@ function App() {
             element={<PortfolioWebsite />}
           ></Route>
           <Route path="/Projects/OS/Pintos" element={<Pintos />}></Route>
+          <Route path="/Projects/SWE" element={<TTS />}></Route>
           <Route
             path="/Achievements/Eagle-Scout"
             element={<EagleScout />}

@@ -1,7 +1,7 @@
 import Project from "../components/Project";
 import BackButton from "../components/BackButton";
 import UTCSShell from "../images/UTCSShell.png";
-import os from "../images/OS.jpeg";
+import os from "../images/OS.png";
 
 function OS() {
   return (
