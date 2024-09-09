@@ -1,18 +1,28 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.b3464a71.css",
-    "main.js": "/portfolio/static/js/main.ca8b4fd3.js",
+    "main.js": "/portfolio/static/js/main.6c4ee97c.js",
     "static/media/GymnasticsVideo3.mov": "/portfolio/static/media/GymnasticsVideo3.cc67558869239a16d2e3.mov",
     "static/media/GymnasticsVideo4.mov": "/portfolio/static/media/GymnasticsVideo4.ac3a0fe167444882f1bf.mov",
     "static/media/GymnasticsVideo2.mov": "/portfolio/static/media/GymnasticsVideo2.29bf895a15d516f547fb.mov",
+    "static/media/TTS.png": "/portfolio/static/media/TTS.991a4f27de49a0c3b479.png",
     "static/media/Dodge-Adventure.mov": "/portfolio/static/media/Dodge-Adventure.b9897d2763d613276ad5.mov",
     "static/media/GymnasticsVideo1.mov": "/portfolio/static/media/GymnasticsVideo1.435c6f2684b0c07ad20a.mov",
     "static/media/Community-Coding.png": "/portfolio/static/media/Community-Coding.03f7c923428dbc51ec56.png",
+    "static/media/TTS2.png": "/portfolio/static/media/TTS2.d5c550f9cbf489f324c5.png",
+    "static/media/TTS8.png": "/portfolio/static/media/TTS8.f0a2e540db166252841a.png",
+    "static/media/OS.png": "/portfolio/static/media/OS.0ad37cfd5f07c6ad0a11.png",
+    "static/media/TTS7.png": "/portfolio/static/media/TTS7.c96b517a9d34ade3894e.png",
     "static/media/Portfolio.png": "/portfolio/static/media/Portfolio.acb7101ecb650ddb34dd.png",
+    "static/media/TTS5.png": "/portfolio/static/media/TTS5.83c2daec46bad6ad824e.png",
     "static/media/Eagle-Project.jpg": "/portfolio/static/media/Eagle-Project.47f6972e4bba24df4b8e.jpg",
+    "static/media/TTS6.png": "/portfolio/static/media/TTS6.e96bd000da5cc3542494.png",
+    "static/media/TTS10.png": "/portfolio/static/media/TTS10.4f9fa6ac46bb91906f9d.png",
+    "static/media/TTS3.png": "/portfolio/static/media/TTS3.39aae1522ed123a22744.png",
     "static/media/Eagle-Project5.jpeg": "/portfolio/static/media/Eagle-Project5.b985650d4c14aa1a57c4.jpeg",
     "static/media/Eagle-Project4.jpeg": "/portfolio/static/media/Eagle-Project4.7418735b165f975a2c5e.jpeg",
     "static/media/Welding.jpeg": "/portfolio/static/media/Welding.e01953c83c6a765d04ac.jpeg",
+    "static/media/TTS4.png": "/portfolio/static/media/TTS4.69f316da2696fbacc3f7.png",
     "static/media/Chess-Website5.png": "/portfolio/static/media/Chess-Website5.d1603f39625b236ece11.png",
     "static/media/Chess-Website3.png": "/portfolio/static/media/Chess-Website3.44824c3cf2f31653af26.png",
     "static/media/Chess-Website2.png": "/portfolio/static/media/Chess-Website2.6ec3ba2f1b0ec1c74415.png",
@@ -24,6 +34,7 @@
     "static/media/DMA.png": "/portfolio/static/media/DMA.05f1edfb8f82eeb9fcdb.png",
     "static/media/FreeList.png": "/portfolio/static/media/FreeList.6235e8358afd50404b42.png",
     "static/media/charm.png": "/portfolio/static/media/charm.7f72f979c0f857f4ffca.png",
+    "static/media/TTS9.png": "/portfolio/static/media/TTS9.1f00056f8c266c31956e.png",
     "static/media/EagleScout.png": "/portfolio/static/media/EagleScout.299e1b639a815b04925b.png",
     "static/media/execute.png": "/portfolio/static/media/execute.33a7add3c34d0993c39a.png",
     "static/media/GymnasticsImage.jpg": "/portfolio/static/media/GymnasticsImage.831612ccd9ca2f471c96.jpg",
@@ -34,13 +45,12 @@
     "static/media/FS.png": "/portfolio/static/media/FS.0e5d1c9636e8d288afc3.png",
     "static/media/Threads.png": "/portfolio/static/media/Threads.9f80deaf274f3e8fd0f8.png",
     "static/media/VM.png": "/portfolio/static/media/VM.bd433b30d3b1bd86eab7.png",
-    "static/media/OS.jpeg": "/portfolio/static/media/OS.902f1f6a0eaa7cec14a2.jpeg",
     "index.html": "/portfolio/index.html",
     "main.b3464a71.css.map": "/portfolio/static/css/main.b3464a71.css.map",
-    "main.ca8b4fd3.js.map": "/portfolio/static/js/main.ca8b4fd3.js.map"
+    "main.6c4ee97c.js.map": "/portfolio/static/js/main.6c4ee97c.js.map"
   },
   "entrypoints": [
     "static/css/main.b3464a71.css",
-    "static/js/main.ca8b4fd3.js"
+    "static/js/main.6c4ee97c.js"
   ]
 }
