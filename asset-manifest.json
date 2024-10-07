@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.b3464a71.css",
-    "main.js": "/portfolio/static/js/main.b62263b3.js",
+    "main.js": "/portfolio/static/js/main.3e551c8d.js",
     "static/media/GymnasticsVideo3.mov": "/portfolio/static/media/GymnasticsVideo3.cc67558869239a16d2e3.mov",
     "static/media/GymnasticsVideo4.mov": "/portfolio/static/media/GymnasticsVideo4.ac3a0fe167444882f1bf.mov",
     "static/media/GymnasticsVideo2.mov": "/portfolio/static/media/GymnasticsVideo2.29bf895a15d516f547fb.mov",
@@ -12,6 +12,7 @@
     "static/media/TTS2.png": "/portfolio/static/media/TTS2.d5c550f9cbf489f324c5.png",
     "static/media/TTS8.png": "/portfolio/static/media/TTS8.f0a2e540db166252841a.png",
     "static/media/OS.png": "/portfolio/static/media/OS.0ad37cfd5f07c6ad0a11.png",
+    "static/media/cook.png": "/portfolio/static/media/cook.30b302701f9cbdbb26f0.png",
     "static/media/TTS7.png": "/portfolio/static/media/TTS7.c96b517a9d34ade3894e.png",
     "static/media/Portfolio.png": "/portfolio/static/media/Portfolio.acb7101ecb650ddb34dd.png",
     "static/media/TTS5.png": "/portfolio/static/media/TTS5.83c2daec46bad6ad824e.png",
@@ -50,10 +51,10 @@
     "static/media/VM.png": "/portfolio/static/media/VM.bd433b30d3b1bd86eab7.png",
     "index.html": "/portfolio/index.html",
     "main.b3464a71.css.map": "/portfolio/static/css/main.b3464a71.css.map",
-    "main.b62263b3.js.map": "/portfolio/static/js/main.b62263b3.js.map"
+    "main.3e551c8d.js.map": "/portfolio/static/js/main.3e551c8d.js.map"
   },
   "entrypoints": [
     "static/css/main.b3464a71.css",
-    "static/js/main.b62263b3.js"
+    "static/js/main.3e551c8d.js"
   ]
 }
