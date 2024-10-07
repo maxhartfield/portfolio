@@ -15,7 +15,7 @@ function Achievements() {
       <BackButton />
       <div className="container">
         <div className="row">
-          <div className="col">
+          <div className="col-12 col-md-6">
             <Project
               name="Eagle Scout"
               image={EagleScout}
@@ -23,7 +23,7 @@ function Achievements() {
               link="/Achievements/Eagle-Scout"
             ></Project>
           </div>
-          <div className="col">
+          <div className="col-12 col-md-6">
             <Project
               name="Gymnastics National Qualifier"
               image={Gymnastics}
@@ -36,7 +36,7 @@ function Achievements() {
               link="/Achievements/Gymnastics"
             ></Project>
           </div>
-          <div className="col">
+          <div className="col-12 col-md-6">
             <Project
               name="Community Coding"
               image={CommunityCoding}
