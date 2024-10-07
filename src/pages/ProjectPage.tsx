@@ -6,6 +6,7 @@ import Portfolio from "../images/Portfolio.png";
 import OS from "../images/OS.png";
 import charm from "../images/charm.png";
 import BackButton from "../components/BackButton";
+import cook from "../images/cook.png";
 
 function ProjectPage() {
   return (
@@ -59,12 +60,22 @@ function ProjectPage() {
         <div className="row">
           <div className="col">
             <Project
+              name="Easy Cook"
+              image={cook}
+              skills={["Flutter", "Dart", "Mobile Development", "OpenAI API"]}
+              link="/Projects/EasyCook"
+            ></Project>
+          </div>
+          <div className="col">
+            <Project
               name="OS"
               image={OS}
               skills={[]}
               link="/Projects/OS"
             ></Project>
           </div>
+        </div>
+        <div className="row">
           <div className="col">
             <Project
               name="Computer Architecture"
@@ -73,8 +84,6 @@ function ProjectPage() {
               link="/Projects/CompArch"
             ></Project>
           </div>
-        </div>
-        <div className="row">
           <div className="col">
             <Project
               name="Dodge Adventure"
@@ -83,7 +92,9 @@ function ProjectPage() {
               link="/Projects/Dodge-Adventure"
             ></Project>
           </div>
-          <div className="col">
+        </div>
+        <div className="row">
+          <div className="col-md-6 mx-auto">
             <Project
               name="Portfolio Website"
               image={Portfolio}

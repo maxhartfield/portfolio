@@ -20,6 +20,7 @@ import TTS from "./pages/TTS";
 import Internships from "./pages/Internships";
 import CoxAutomotive from "./pages/CoxAutomotive";
 import Resume from "./pages/Resume";
+import EasyCook from "./pages/EasyCook";
 function App() {
   return (
     <>
@@ -54,13 +55,9 @@ function App() {
             path="/Projects/Portfolio-Website"
             element={<PortfolioWebsite />}
           ></Route>
-<<<<<<< HEAD
           <Route path="/Projects/OS/Pintos" element={<Pintos />}></Route>
           <Route path="/Projects/SWE" element={<TTS />}></Route>
-=======
-          <Route path="/Projects/SWE" element={<SWE />}></Route>
-          <Route path="/Projects/Pintos" element={<Pintos />}></Route>
->>>>>>> main
+          <Route path="/Projects/EasyCook" element={<EasyCook />}></Route>
           <Route
             path="/Achievements/Eagle-Scout"
             element={<EagleScout />}
