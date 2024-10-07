@@ -11,8 +11,14 @@ function Navbar() {
           <NavLink className="nav-item nav-link " to="/Projects">
             Projects
           </NavLink>
+          <NavLink className="nav-item nav-link " to="/Internships">
+            Internships
+          </NavLink>
           <NavLink className="nav-item nav-link " to="/Achievements">
             Achievements
+          </NavLink>
+          <NavLink className="nav-item nav-link " to="/Resume">
+            Resume
           </NavLink>
         </div>
       </nav>

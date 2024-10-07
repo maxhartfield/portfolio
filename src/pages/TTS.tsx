@@ -9,6 +9,7 @@ import TTS7 from "../images/TTS7.png";
 import TTS8 from "../images/TTS8.png";
 import TTS9 from "../images/TTS9.png";
 import TTS10 from "../images/TTS10.png";
+import BackButton from "../components/BackButton";
 
 function TTS() {
   return (
@@ -18,6 +19,7 @@ function TTS() {
       <br className="spacer" />
       <br className="spacer" />
       <br className="spacer" />
+      <BackButton />
       <h1>Trauma Support Website</h1>
       <h3>
         In my software engineering class at the University of Texas at Austin, I
@@ -75,7 +77,7 @@ function TTS() {
       <h3>
         Ultimately, this was a great project to expand my software engineering
         skills. We utilized many tools like AWS, Docker, Postman, Jest,
-        Selenium, and more.{" "}
+        Selenium, and more.
       </h3>
       <br className="spacer" />
       <br className="spacer" />

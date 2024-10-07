@@ -17,6 +17,9 @@ import Pintos from "./pages/Pintos";
 import CompArch from "./pages/CompArch";
 import OS from "./pages/OS";
 import TTS from "./pages/TTS";
+import Internships from "./pages/Internships";
+import CoxAutomotive from "./pages/CoxAutomotive";
+import Resume from "./pages/Resume";
 function App() {
   return (
     <>
@@ -27,7 +30,9 @@ function App() {
           <Route path="/" element={<Home />}></Route>
           <Route path="/Home" element={<Home />}></Route>
           <Route path="/Projects" element={<ProjectPage />}></Route>
+          <Route path="/Internships" element={<Internships />}></Route>
           <Route path="/Achievements" element={<Achievements />}></Route>
+          <Route path="/Resume" element={<Resume />}></Route>
           <Route
             path="/Projects/Chess-Website"
             element={<ChessWebsite />}
@@ -62,6 +67,10 @@ function App() {
           <Route
             path="/Achievements/Gymnastics"
             element={<Gymnastics />}
+          ></Route>
+          <Route
+            path="/Internships/Cox-Automotive"
+            element={<CoxAutomotive />}
           ></Route>
         </Routes>
       </Router>
