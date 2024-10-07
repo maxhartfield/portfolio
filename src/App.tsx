@@ -54,8 +54,13 @@ function App() {
             path="/Projects/Portfolio-Website"
             element={<PortfolioWebsite />}
           ></Route>
+<<<<<<< HEAD
           <Route path="/Projects/OS/Pintos" element={<Pintos />}></Route>
           <Route path="/Projects/SWE" element={<TTS />}></Route>
+=======
+          <Route path="/Projects/SWE" element={<SWE />}></Route>
+          <Route path="/Projects/Pintos" element={<Pintos />}></Route>
+>>>>>>> main
           <Route
             path="/Achievements/Eagle-Scout"
             element={<EagleScout />}
