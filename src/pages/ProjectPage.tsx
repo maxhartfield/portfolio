@@ -19,7 +19,7 @@ function ProjectPage() {
       <BackButton />
       <div className="container">
         <div className="row">
-          <div className="col">
+          <div className="col-12 col-md-6">
             <Project
               name="Texas Trauma Support Website"
               image={TTS}
@@ -46,61 +46,56 @@ function ProjectPage() {
                 "YAML",
               ]}
               link="/Projects/SWE"
-            ></Project>
+            />
           </div>
-          <div className="col">
+          <div className="col-12 col-md-6">
             <Project
               name="Chess Website"
               image={ChessWebsite}
               skills={["JavaScript", "HTML", "CSS"]}
               link="/Projects/Chess-Website"
-            ></Project>
+            />
           </div>
         </div>
         <div className="row">
-          <div className="col">
+          <div className="col-12 col-md-6">
             <Project
               name="Easy Cook"
               image={cook}
               skills={["Flutter", "Dart", "Mobile Development", "OpenAI API"]}
               link="/Projects/EasyCook"
-            ></Project>
+            />
           </div>
-          <div className="col">
-            <Project
-              name="OS"
-              image={OS}
-              skills={[]}
-              link="/Projects/OS"
-            ></Project>
+          <div className="col-12 col-md-6">
+            <Project name="OS" image={OS} skills={[]} link="/Projects/OS" />
           </div>
         </div>
         <div className="row">
-          <div className="col">
+          <div className="col-12 col-md-6">
             <Project
               name="Computer Architecture"
               image={charm}
               skills={[]}
               link="/Projects/CompArch"
-            ></Project>
+            />
           </div>
-          <div className="col">
+          <div className="col-12 col-md-6">
             <Project
               name="Dodge Adventure"
               image={DodgeAdventure}
               skills={["Java", "Game Design", "Graphics2D"]}
               link="/Projects/Dodge-Adventure"
-            ></Project>
+            />
           </div>
         </div>
         <div className="row">
-          <div className="col-md-6 mx-auto">
+          <div className="col-12 col-md-6 mx-auto">
             <Project
               name="Portfolio Website"
               image={Portfolio}
               skills={["React.js", "TypeScript", "CSS", "Bootstrap"]}
               link="/Projects/Portfolio-Website"
-            ></Project>
+            />
           </div>
         </div>
       </div>
