@@ -13,7 +13,7 @@ function Internships() {
       <BackButton />
       <div className="container">
         <div className="row">
-          <div className="col-12 col-md-6">
+          <div className="col-12 col-md-6 mx-auto">
             <Project
               name="Cox Automotive"
               image={cox}

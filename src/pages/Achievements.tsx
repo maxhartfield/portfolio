@@ -36,7 +36,9 @@ function Achievements() {
               link="/Achievements/Gymnastics"
             ></Project>
           </div>
-          <div className="col-12 col-md-6">
+        </div>
+        <div className="row">
+          <div className="col-12 col-md-6 mx-auto">
             <Project
               name="Community Coding"
               image={CommunityCoding}
