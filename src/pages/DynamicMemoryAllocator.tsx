@@ -12,14 +12,14 @@ function DynamicMemoryAllocator() {
       <br className="spacer" />
       <BackButton />
       <h1>Dynamic Memory Allocator</h1>
-      <h3 className="mx-3 mx-md-5">
+      <h3>
         In my computer architecture class at the University of Texas at Austin,
         I created a dynamic memory allocator in C. This project demonstrates my
         understanding of the C language and how memory gets allocated and
         deallocated within the heap.
       </h3>
       <Image className="info-img" src={FreeList}></Image>
-      <h3 className="mx-3 mx-md-5">
+      <h3>
         My implementation of malloc and free utilized a linked list that kept
         track of free blocks of memory. I stored meta data in each block like
         the size of the block, allocation status, and next block pointer. When

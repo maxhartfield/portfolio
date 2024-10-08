@@ -1,6 +1,7 @@
 import BackButton from "../components/BackButton";
 import Image from "../components/Image";
 import resume from "../images/Resume.png";
+const resumePDF = require("../resume.pdf");
 function Resume() {
   return (
     <>
@@ -13,7 +14,7 @@ function Resume() {
       <h1>Resume</h1>
       <Image className="info-img" src={resume}></Image>
       <a
-        href="../resume.pdf"
+        href={resumePDF}
         download="Max_Hartfield_Resume.pdf"
         className="btn btn-primary mt-3"
       >

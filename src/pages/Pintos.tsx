@@ -15,7 +15,7 @@ function Pintos() {
       <br className="spacer" />
       <BackButton />
       <h1>Pintos</h1>
-      <h3 className="mx-3 mx-md-5">
+      <h3>
         Pintos is a simple operating system framework for the 80x86
         architecture. It supports kernel threads, loading and running user
         programs, and a file system. In my operating systems class at the
@@ -31,7 +31,7 @@ function Pintos() {
       <br className="spacer" />
       <h2>Threads</h2>
       <Image className="info-img" src={Threads}></Image>
-      <h3 className="mx-3 mx-md-5">
+      <h3>
         In the threads portion of this project, I added a priority variable to
         the thread's TCB (Thread control block) and changed the ready queue to
         be sorted by a thread's priority. I also implemented a method to set the
@@ -44,7 +44,7 @@ function Pintos() {
       <br className="spacer" />
       <h2>User Programs</h2>
       <Image className="info-img bigger" src={UserPrograms}></Image>
-      <h3 className="mx-3 mx-md-5">
+      <h3>
         In the user programs portion of this project, I created system calls
         needed to execute user programs like halt, exit, exec, wait, create,
         remove, open, filesize, read, write, seek, tell, and close. I also
@@ -54,7 +54,7 @@ function Pintos() {
       <br className="spacer" />
       <h2>Virtual Memory</h2>
       <Image className="info-img bigger" src={VM}></Image>
-      <h3 className="mx-3 mx-md-5">
+      <h3>
         In the virtual memory portion of this project, I extended my user
         program implementation to account for stack growth. I also implemented
         paging with a supplemental page table, a frame table, and a swap table.
@@ -67,7 +67,7 @@ function Pintos() {
       <br className="spacer" />
       <h2>File Systems</h2>
       <Image className="info-img bigger" src={FS}></Image>
-      <h3 className="mx-3 mx-md-5">
+      <h3>
         In the file systems portion of this project, I adjusted the file system
         to be a multilevel indexed structure with 10 direct blocks, 1 indirect
         block, and 1 double indirect block. I designed this structure to support

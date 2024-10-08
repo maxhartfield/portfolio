@@ -21,7 +21,7 @@ function TTS() {
       <br className="spacer" />
       <BackButton />
       <h1>Trauma Support Website</h1>
-      <h3 className="mx-3 mx-md-5">
+      <h3>
         In my software engineering class at the University of Texas at Austin, I
         collaborated with 4 colleagues to build a dynamic React.js website
         hosted on AWS Amplify to aid trauma survivors. This project demonstrates
@@ -29,18 +29,18 @@ function TTS() {
         practices like unit testing and continuous integration.
       </h3>
       <br className="spacer" />
-      <h3 className="mx-3 mx-md-5">
+      <h3>
         Here is the landing page. We utilized bootstrap to style the website and
         use components like the navigation bar.
       </h3>
       <Image className="info-img" src={TTS1}></Image>
-      <h3 className="mx-3 mx-md-5">
+      <h3>
         This is the about page showing my collaborators. We utilized GitLab api
         to display the number of commits, issues closed, and unit tests written
         per person.
       </h3>
       <Image className="info-img" src={TTS2}></Image>
-      <h3 className="mx-3 mx-md-5">
+      <h3>
         These are the therapists, trauma facilities, and trauma support group
         pages. In order to get the data for these page we utilized Puppeteer to
         programmatically scrape data from 3 data sources for 410 instances of
@@ -52,31 +52,29 @@ function TTS() {
       <Image className="info-img" src={TTS3}></Image>
       <Image className="info-img" src={TTS5}></Image>
       <Image className="info-img" src={TTS6}></Image>
-      <h3 className="mx-3 mx-md-5">
-        In the backend, we implemented searching for key words.
-      </h3>
+      <h3>In the backend, we implemented searching for key words.</h3>
       <Image className="info-img" src={TTS10}></Image>
-      <h3 className="mx-3 mx-md-5">
+      <h3>
         We also implemented sorting and filtering by attributes of the data in
         all three pages
       </h3>
       <Image className="info-img" src={TTS7}></Image>
-      <h3 className="mx-3 mx-md-5">
+      <h3>
         We developed navigation through the instances at the bottom of the
         pages.
       </h3>
       <Image className="info-img" src={TTS4}></Image>
-      <h3 className="mx-3 mx-md-5">
+      <h3>
         We also integrated a global searching feature in the navigation bar at
         the top of all pages.
       </h3>
       <Image className="info-img" src={TTS8}></Image>
-      <h3 className="mx-3 mx-md-5">
+      <h3>
         Finally, we demonstrate how to use our API to create visualizations of
         the data stored in our database on the visualizations page.
       </h3>
       <Image className="info-img" src={TTS9}></Image>
-      <h3 className="mx-3 mx-md-5">
+      <h3>
         Ultimately, this was a great project to expand my software engineering
         skills. We utilized many tools like AWS, Docker, Postman, Jest,
         Selenium, and more.

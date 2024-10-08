@@ -12,7 +12,7 @@ function EasyCook() {
       <br className="spacer" />
       <BackButton />
       <h1>Easy Cook</h1>
-      <h3 className="mx-3 mx-md-5">
+      <h3>
         I participated in a hackathon where I built a mobile app help users
         track calories and generate recipes given ingredients or a specified
         meal/cuisine. I programmed in Dart and utilized Flutter and OpenAI API

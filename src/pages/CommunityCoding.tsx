@@ -11,7 +11,7 @@ function CommunityCoding() {
       <br className="spacer" />
       <BackButton />
       <h1>Community Coding</h1>
-      <h3 className="mx-3 mx-md-5">
+      <h3>
         I offered free Java lessons to members of the community in collaboration
         with Professor Jey Veerasamy of UT-Dallas. These problems were held over
         zoom and featured a variety of Java problems that help kids learn Java
