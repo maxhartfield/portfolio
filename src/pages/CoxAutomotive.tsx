@@ -10,8 +10,8 @@ function CoxAutomotive() {
       <br className="spacer" />
       <br className="spacer" />
       <BackButton />
-      <h1>Software engineer intern at Cox Automotive</h1>
-      <h3>
+      <h1>Software Engineer Intern at Cox Automotive</h1>
+      <h3 className="mx-3 mx-md-5">
         During the summer of 2024, I completed my first software engineering
         internship. Cox Automotive was a great oppurtunity for me to learn how
         developers use agile development to push code to production. The company

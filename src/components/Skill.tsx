@@ -3,7 +3,7 @@ interface Props {
 }
 function Skill({ skill }: Props) {
   return (
-    <span className="badge rounded-pill bg-primary m-2 skill">{skill}</span>
+    <span className="badge rounded-pill bg-primary m-2 fs-7">{skill}</span>
   );
 }
 export default Skill;
