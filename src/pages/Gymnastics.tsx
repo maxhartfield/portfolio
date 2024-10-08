@@ -14,7 +14,7 @@ function Gymnastics() {
       <br className="spacer" />
       <BackButton />
       <h1>Gymnastics National Qualifier</h1>
-      <h3>
+      <h3 className="mx-3 mx-md-5">
         I have done gymnastics for 13 years of my life. Although I retired after
         senior year of high school, gymnastics still played a major part in my
         life and instilled skills like dedication, persistence, and time

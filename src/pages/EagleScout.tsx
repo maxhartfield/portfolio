@@ -17,7 +17,7 @@ function EagleScout() {
       <br className="spacer" />
       <BackButton />
       <h1>Eagle Scout</h1>
-      <h3>
+      <h3 className="mx-3 mx-md-5">
         I have been part of scouting since I was a kid and it has tought me many
         skills like leadership, communication, and teamwork. After many years I
         finally achieved the highest rank, Eagle Scout.
@@ -28,7 +28,7 @@ function EagleScout() {
       <Image className="info-img together" src={EagleScout2}></Image>
 
       <br className="spacer" />
-      <h3>
+      <h3 className="mx-3 mx-md-5">
         My eagle scout project was a 42 ft x 8 ft screening fence located at
         Saint Andrew’s United Methodist Church in Plano. It took a total of 14
         hours to complete with me and my fellow scouts. Building and designing

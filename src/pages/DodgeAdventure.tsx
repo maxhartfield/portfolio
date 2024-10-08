@@ -10,7 +10,7 @@ function DodgeAdventure() {
       <br className="spacer" />
       <BackButton />
       <h1>Dodge Adventure</h1>
-      <h3>
+      <h3 className="mx-3 mx-md-5">
         Dodge Adventure is a game I created in Java using Graphics2D where a red
         square acts as a player and must move (WASD or arrow keys) to the end of
         the screen while dodging blue obstacles and avoiding the black walls.

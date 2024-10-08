@@ -15,7 +15,7 @@ function ChessWebsite() {
       <br className="spacer" />
       <BackButton />
       <h1>Chess Website</h1>
-      <h3>
+      <h3 className="mx-3 mx-md-5">
         Chess Website is a website that two people can play chess on using the
         same computer. I tought myself HTML, CSS, and JavaScript and made this
         website over the summer of 2023 using what I learned. This project was
@@ -24,7 +24,7 @@ function ChessWebsite() {
         complex website from scratch.
       </h3>
       <Image className="info-img" src={ChessWebsite2}></Image>
-      <h3>
+      <h3 className="mx-3 mx-md-5">
         The chess pieces are unicode characters. I implemented a user friendly
         design throughout this project with CSS. The possible moves for each
         piece are highlighted in green. The last move is highlighted in yellow.
@@ -32,17 +32,17 @@ function ChessWebsite() {
         highlighted blue.
       </h3>
       <Image className="info-img" src={ChessWebsite3}></Image>
-      <h3>
+      <h3 className="mx-3 mx-md-5">
         The king is highlighted red when in check. A message is printed at the
         bottom upon checkmate, stalemate, and insufficient material.
       </h3>
       <Image className="info-img" src={ChessWebsite4}></Image>
-      <h3>
+      <h3 className="mx-3 mx-md-5">
         All the chess features like promotion, castling, en passant, pinned
         pieces, etc. are implemented.
       </h3>
       <Image className="info-img" src={ChessWebsite5}></Image>
-      <h3>
+      <h3 className="mx-3 mx-md-5">
         I have added a board editor, so it is possible to start playing from any
         position. I have also added a undo function that undos the last move.
       </h3>
