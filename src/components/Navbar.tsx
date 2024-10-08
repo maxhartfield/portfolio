@@ -8,6 +8,10 @@ function Navbar() {
     setIsOpen(!isOpen);
   };
 
+  const handleNavLinkClick = () => {
+    setIsOpen(false); // Collapse the navbar
+  };
+
   return (
     <div>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
@@ -27,21 +31,39 @@ function Navbar() {
           id="navbarNav"
         >
           <div className="navbar-nav mx-auto">
-            {" "}
-            {/* Added mx-auto here */}
-            <NavLink className="nav-item nav-link" to="/Home">
+            <NavLink
+              className="nav-item nav-link"
+              to="/Home"
+              onClick={handleNavLinkClick}
+            >
               Home <span className="sr-only"></span>
             </NavLink>
-            <NavLink className="nav-item nav-link" to="/Projects">
+            <NavLink
+              className="nav-item nav-link"
+              to="/Projects"
+              onClick={handleNavLinkClick}
+            >
               Projects
             </NavLink>
-            <NavLink className="nav-item nav-link" to="/Internships">
+            <NavLink
+              className="nav-item nav-link"
+              to="/Internships"
+              onClick={handleNavLinkClick}
+            >
               Internships
             </NavLink>
-            <NavLink className="nav-item nav-link" to="/Achievements">
+            <NavLink
+              className="nav-item nav-link"
+              to="/Achievements"
+              onClick={handleNavLinkClick}
+            >
               Achievements
             </NavLink>
-            <NavLink className="nav-item nav-link" to="/Resume">
+            <NavLink
+              className="nav-item nav-link"
+              to="/Resume"
+              onClick={handleNavLinkClick}
+            >
               Resume
             </NavLink>
           </div>
