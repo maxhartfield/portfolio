@@ -1,0 +1,161 @@
+Home.tsx
+Title: Hello I'm Max Hartfield!
+Text: I am a CS major at the University of Texas at Austin.
+Text: Use the navigation bar to look at my projects and achievements!
+Image: Profile.jpeg
+
+Achievements.tsx (project page)
+Row1:
+Eagle Scout: (Leadership, Teamwork, Communication), link: /Achievements/Eagle-Scout, Image: EagleScout2.png
+Gymnastics National Qualifier: (Gymnastics, Dedication, Persistence, Time Management), link: /Achievements/Gymnastics, Image: GymnasticsImage.jpg
+Row2:
+Community Coding: (Teaching, Java, Problem Solving, Communication), link: /Achievements/Community-Coding, Image: Community-Coding.png
+
+Charm.tsx
+Title: chArm-v2 System Emulator
+Text: In my computer architecture class at the University of Texas at Austin, I implemented a pipeline with cache simulator for chArm-v2 instruction set architecture using C. The instructions in this subset of Arm A64 include LDUR, STUR, MOVK, MOVZ, ADRP, ADD, ADDS, SUB, SUBS, CMP, MVN, OR, EOR, ANDS, TST, LSL, LSR, UBFM, ASR, B, B.cond, BL, RET, NOP, and HLT. I programmed the five stages for each instruction: Fetch, Decode, Execute, Memory, and Writeback. I also handled the data and control hazards that come with this pipeline implementation.
+Text: In the fetch stage, I took the current PC (program counter) and fetched the instruction associated with it.
+Image: fetch.png
+Text: In the decode stage, I decoded the instruction to get the correct operation and I set the control signals for future stages.
+Image: decode.png
+Text: In the execute stage, I passed the instruction through the arithmetic logic unit and the operation actually gets performed.
+Image: execute.png
+Text: In the memory stage, I accessed memory if it is needed to execute an instruction. I implemented a write back cache using LRU (Least Recently Used) replacement policy to improve the efficiency of this stage. In the writeback stage, I saved the result of the instruction.
+Image: m&w.png
+Text: I handled data and control hazards from the pipeline implementation by inserting bubble (NOP) and stall instructions. I also forwarded values from the execute, memory, and writeback stages back to decode.
+
+ChessWebsite.tsx
+Title: Chess Website
+Text: Chess Website is a website that two people can play chess on using the same computer. I tought myself HTML, CSS, and JavaScript and made this website over the summer of 2023 using what I learned. This project was extremely fun to make since I play chess as a hobby. This project demonstrates my ability to utilize HTML, CSS, and JavaScript to create a complex website from scratch.
+Image: Chess-Website2.png
+Text: The chess pieces are unicode characters. I implemented a user friendly design throughout this project with CSS. The possible moves for each piece are highlighted in green. The last move is highlighted in yellow. The clicked piece is highlighted in black. The hovered square is highlighted blue.
+Image: Chess-Website3.png
+Text: The king is highlighted red when in check. A message is printed at the bottom upon checkmate, stalemate, and insufficient material.
+Image: Chess-Website4.png
+Text: All the chess features like promotion, castling, en passant, pinned pieces, etc. are implemented.
+Image: Chess-Website5.png
+Text: I have added a board editor, so it is possible to start playing from any position. I have also added a undo function that undos the last move.
+
+CommunityCoding.tsx
+Title: Community Coding
+Text: I offered free Java lessons to members of the community in collaboration with Professor Jey Veerasamy of UT-Dallas. These problems were held over zoom and featured a variety of Java problems that help kids learn Java and problem solving skills. This achievement demonstrates my ability to communicate effectively and my passion for coding.
+Image: Community-Coding.png
+
+CompArch.tsx (project page)
+Row1:
+chArm-v2 System Emulator: (C, Collaborative, Computer Architecture, Assembly, Cache, Pipeline), link: /Projects/CompArch/chArm, Image: charm.png
+Dynamic Memory Allocator: (C, Collaborative, Linked List, Heap, Computer Architecture, Operating System), link: /Projects/CompArch/Dynamic-Memory-Allocator, Image: DMA.png
+
+CoxAutomotive.tsx
+Title: Software Engineer Intern at Cox Automotive
+Text: During the summer of 2024, I completed my first software engineering internship. Cox Automotive was a great oppurtunity for me to learn how developers use agile development to push code to production. The company was amazing and the people were very supportive. I expanded my programming skills in the frontend and backend and got exposure to Stencil.js, .NET, C#, AWS, Terraform, Github Actions, and much more. This internship boosted my confidence as a programmer as I transitioned from the fundamentals taught in school to real world experiences. It also made me even more sure that software engineering is the path I want to take in the future. Here is my final presentation from my internship that highlights what I worked on during the 12 weeks:
+Image: CoxPresentation.jpeg
+
+DodgeAdventure.tsx
+Title: Dodge Adventure
+Text: Dodge Adventure is a game I created in Java using Graphics2D where a red square acts as a player and must move (WASD or arrow keys) to the end of the screen while dodging blue obstacles and avoiding the black walls. There are seven unique levels that get increasingly harder. I enabled the user to change the speed of the player to make the game easier or harder. I implemented a death and coin counter to encourage replayability and competition. This project demonstates my ability to code in Java and create a game from scratch.
+Video: Dodge-Adventure.mov
+
+DynamicMemoryAllocator.tsx
+Title: Dynamic Memory Allocator
+Text: In my computer architecture class at the University of Texas at Austin, I created a dynamic memory allocator in C. This project demonstrates my understanding of the C language and how memory gets allocated and deallocated within the heap.
+Image: FreeList.png
+Text: My implementation of malloc and free utilized a linked list that kept track of free blocks of memory. I stored meta data in each block like the size of the block, allocation status, and next block pointer. When the user calls malloc, my program looks for the first free block that fits the request, removes it from the free list, and returns it to the user. When the user calls free, my program will insert the block back into the free list in sorted order and coalesce with its neighbors if necessary. If there is no space in the free list, then my program will request more memory from the operating system.
+
+EagleScout.tsx
+Title: Eagle Scout
+Text: I have been part of scouting since I was a kid and it has tought me many skills like leadership, communication, and teamwork. After many years I finally achieved the highest rank, Eagle Scout.
+Image: EagleScout.png
+Image: EagleScout2.png
+Text: My eagle scout project was a 42 ft x 8 ft screening fence located at Saint Andrew’s United Methodist Church in Plano. It took a total of 14 hours to complete with me and my fellow scouts. Building and designing this fence was an intricate task and took a great deal of effort. My favorite part of this project was personally welding together the gate. My eagle scout project demonstrates my ability to prepare, manage a budget, delagate tasks, communicate with my fellow scouts and my benificiary, etc. Here are some photos documenting the project:
+Image: Welding.jpeg
+Image: Eagle-Project4.jpeg
+Image: Eagle-Project5.jpeg
+Image: Eagle-Project.jpg
+
+EasyCook.tsx
+Title: Easy Cook
+Text: I participated in a hackathon where I built a mobile app help users track calories and generate recipes given ingredients or a specified meal/cuisine. I programmed in Dart and utilized Flutter and OpenAI API to make a unique and flexible experience for both IOS and Android users. Watch my demo:
+Image: cook.png
+Video: https://www.youtube.com/embed/hYcTRBI4TOw (YouTube embed link)
+
+Gymnastics.tsx
+Title: Gymnastics National Qualifier
+Text: I have done gymnastics for 13 years of my life. Although I retired after senior year of high school, gymnastics still played a major part in my life and instilled skills like dedication, persistence, and time management. Gymnastics is a time consuming and physicaly demanding sport, and it was very difficult to manage school and 20 hours of gymnastics a week. Despite fracturing my spine twice, I recovered and eventually qualified for nationals. Here are some of my highlights:
+Video: GymnasticsVideo4.mov
+Video: GymnasticsVideo2.mov
+Video: GymnasticsVideo1.mov
+Video: GymnasticsVideo3.mov
+
+Internships.tsx (project page)
+Row1:
+Cox Automotive: (Software Engineering, Fullstack, AWS, Stencil.js, .NET, TypeScript, C#, Swagger, Terraform, GitHub Actions, YAML, Agile Development, Scrum, Google Chrome Extension, Content Delivery Network), link: /Internships/Cox-Automotive, Image: Cox.png
+
+OS.tsx (project page)
+Row1:
+Pintos: (C, Collaborative, Operating System, Synchronization, Threads, User Programs, Virtual Memory, File Systems), link: /Projects/OS/Pintos, Image: OS.png
+UTCS Shell: (C, Collaborative, Linux, Unix, Concurrency, Paralellism, Operating System), link: /Projects/OS/UTCS-Shell, Image: UTCSShell.png
+
+Pintos.tsx
+Title: Pintos
+Text: Pintos is a simple operating system framework for the 80x86 architecture. It supports kernel threads, loading and running user programs, and a file system. In my operating systems class at the University of Texas at Austin, I adjusted threads to handle priority scheduling and priority donation, implemented argument passing and 18 system calls for user programs to call upon, allowed stack growth and virtual memory with paging, and strengthened the file system to handle indexed and extensible files and subdirectories. I also handled synchronization for all of these features throughout the project. This project demonstrates my understanding of operating systems and how they are implemented.
+Text: In the threads portion of this project, I added a priority variable to the thread's TCB (Thread control block) and changed the ready queue to be sorted by a thread's priority. I also implemented a method to set the priority of a thread. Priority inversion, the problem when a low priority thread holds a mutex that a higher priority thread needs, is solved by priority donation. The higher priority thread donates its priority to the lower priority thread in order to get hold of the mutex it needs as fast as possible.
+Image: Threads.png
+Text: In the user programs portion of this project, I created system calls needed to execute user programs like halt, exit, exec, wait, create, remove, open, filesize, read, write, seek, tell, and close. I also allocated one page for the stack for each user program and implemented argument passing so the user can successfully make the system calls.
+Image: UserPrograms.png
+Text: In the virtual memory portion of this project, I extended my user program implementation to account for stack growth. I also implemented paging with a supplemental page table, a frame table, and a swap table. The frame table evicts pages based off the enhanced clock algorithm, which accounts for dirty pages as well as recently used pages. I allowed for dirty pages to be evicted to the swap partition of disk. I implemented demand paging, where pages get added to physical memory in a page fault when they are accessed.
+Image: VM.png
+Text: In the file systems portion of this project, I adjusted the file system to be a multilevel indexed structure with 10 direct blocks, 1 indirect block, and 1 double indirect block. I designed this structure to support files of all types of sizes. The maximum file size supported by this structure is 8459264 bytes. I also updated the write method to account for writes that extend a file. I added a current working directory to each thread and implemented system calls like chdir, mkdir, readdir, isdir, and inumber in order to allow the file system to support subdirectories.
+Image: FS.png
+
+PortfolioWebsite.tsx
+Title: Portfolio Website
+Text: This website was made to demonstrate my skills and expand on my projects and achievements with pictures and videos. I created react components for each of the project descriptions to enhance reusability. I designed this website to be capable of adjusting to a variety of screen sizes. This project demonstrates my ability to use React, TypeScript, and CSS to make a website.
+
+ProjectPage.tsx (project page)
+Row1:
+Texas Trauma Support Website: (Software Engineering, React, JavaScript, HTML, CSS, Python, SQL, Bootstrap, Docker, Postman, AWS Amplify, Full Stack, RESTful APIs, Puppeteer, Unit Testing, Jest, Selenium, Continuous Integration, Gitlab Pipelines, YAML), link: /Projects/SWE, Image: TTS.png
+Chess Website: (JavaScript, HTML, CSS), link: /Projects/Chess-Website, Image: Chess-Website.png
+Row2:
+Easy Cook: (Flutter, Dart, Mobile Development, OpenAI API), link: /Projects/EasyCook, Image: cook.png
+OS: (), link: /Projects/OS, Image: OS.png
+Row3:
+Computer Architecture: (), link: /Projects/CompArch, Image: charm.png
+Dodge Adventure: (Java, Game Design, Graphics2D), link: /Projects/Dodge-Adventure, Image: Dodge-Adventure.png
+Row4:
+Portfolio Website: (React.js, TypeScript, CSS, Bootstrap), link: /Projects/Portfolio-Website, Image: Portfolio.png
+
+Resume.tsx
+Title: Resume
+Image: Resume.png
+Text: Download PDF
+Link: resume.pdf
+
+TTS.tsx
+Title: Trauma Support Website
+Text: In my software engineering class at the University of Texas at Austin, I collaborated with 4 colleagues to build a dynamic React.js website hosted on AWS Amplify to aid trauma survivors. This project demonstrates my ability to develop full stack and utilize common software engineering practices like unit testing and continuous integration.
+Text: Here is the landing page. We utilized bootstrap to style the website and use components like the navigation bar.
+Image: TTS.png
+Text: This is the about page showing my collaborators. We utilized GitLab api to display the number of commits, issues closed, and unit tests written per person.
+Image: TTS2.png
+Text: These are the therapists, trauma facilities, and trauma support group pages. In order to get the data for these page we utilized Puppeteer to programmatically scrape data from 3 data sources for 410 instances of therapists, 301 instances of trauma facilities, and 2851 instance of trauma support groups. We populated the data into a SQL database and implemented an API for the frontend to seamlessly retrieve the data from the backend.
+Image: TTS3.png
+Image: TTS5.png
+Image: TTS6.png
+Text: In the backend, we implemented searching for key words.
+Image: TTS10.png
+Text: We also implemented sorting and filtering by attributes of the data in all three pages
+Image: TTS7.png
+Text: We developed navigation through the instances at the bottom of the pages.
+Image: TTS4.png
+Text: We also integrated a global searching feature in the navigation bar at the top of all pages.
+Image: TTS8.png
+Text: Finally, we demonstrate how to use our API to create visualizations of the data stored in our database on the visualizations page.
+Image: TTS9.png
+Text: Ultimately, this was a great project to expand my software engineering skills. We utilized many tools like AWS, Docker, Postman, Jest, Selenium, and more.
+
+UTCSShell.tsx
+Title: UTCS Shell
+Text: In my operating systems class at the University of Texas at Austin, I built simple, fully-functioning Unix shell in C. This project demonstrates my ability to code in C and my understanding of how a shell operates in the OS.
+Image: UTCSShell.png
+Text: I implemented built in commands of cd, exit, and path, and external commands that run from PATH which is default set to /bin. I also allowed the shell to support scripts, output redirection, and concurrent commands.
