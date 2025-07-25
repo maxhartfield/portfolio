@@ -1,35 +1,61 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
 import { Navbar, Nav, Container } from "react-bootstrap";
+import { Link, useLocation } from "react-router-dom";
 
-const CustomNavbar: React.FC = () => (
-  <Navbar bg="light" expand="md" className="mb-4" sticky="top">
-    <Container>
-      <Navbar.Brand as={NavLink} to="/">
-        Max Hartfield
-      </Navbar.Brand>
-      <Navbar.Toggle aria-controls="main-navbar-nav" />
-      <Navbar.Collapse id="main-navbar-nav">
-        <Nav className="ms-auto">
-          <Nav.Link as={NavLink} to="/" end>
-            Home
-          </Nav.Link>
-          <Nav.Link as={NavLink} to="/projects">
-            Projects
-          </Nav.Link>
-          <Nav.Link as={NavLink} to="/achievements">
-            Achievements
-          </Nav.Link>
-          <Nav.Link as={NavLink} to="/internships">
-            Internships
-          </Nav.Link>
-          <Nav.Link as={NavLink} to="/resume">
-            Resume
-          </Nav.Link>
-        </Nav>
-      </Navbar.Collapse>
-    </Container>
-  </Navbar>
-);
+const NavigationBar: React.FC = () => {
+  const location = useLocation();
 
-export default CustomNavbar; 
+  const isActive = (path: string) => {
+    return location.pathname.startsWith(path);
+  };
+
+  return (
+    <Navbar bg="dark" variant="dark" expand="lg" className="mb-4">
+      <Container>
+        <Navbar.Brand as={Link} to="/portfolio">Max Hartfield</Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="ms-auto">
+            <Nav.Link 
+              as={Link} 
+              to="/portfolio" 
+              active={isActive("/portfolio") && location.pathname === "/portfolio"}
+            >
+              Home
+            </Nav.Link>
+            <Nav.Link 
+              as={Link} 
+              to="/portfolio/projects" 
+              active={isActive("/portfolio/projects")}
+            >
+              Projects
+            </Nav.Link>
+            <Nav.Link 
+              as={Link} 
+              to="/portfolio/internships" 
+              active={isActive("/portfolio/internships")}
+            >
+              Internships
+            </Nav.Link>
+            <Nav.Link 
+              as={Link} 
+              to="/portfolio/achievements" 
+              active={isActive("/portfolio/achievements")}
+            >
+              Achievements
+            </Nav.Link>
+            <Nav.Link 
+              as={Link} 
+              to="/portfolio/resume" 
+              active={isActive("/portfolio/resume")}
+            >
+              Resume
+            </Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
+  );
+};
+
+export default NavigationBar; 

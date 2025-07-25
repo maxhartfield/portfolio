@@ -1,7 +1,7 @@
 import React from "react";
 import { Card, Row, Col } from "react-bootstrap";
 
-const profileImg = require("../images/Profile.jpeg");
+const profileImg = require("../images/ProfileImg.jpeg");
 
 const Home: React.FC = () => (
   <Row className="justify-content-center align-items-center min-vh-60">
@@ -14,12 +14,12 @@ const Home: React.FC = () => (
           style={{ width: "180px", height: "180px", objectFit: "cover", margin: "0 auto", borderRadius: "50%" }}
         />
         <Card.Body>
-          <Card.Title as="h1" className="mb-3">Hello I'm Max Hartfield!</Card.Title>
-          <Card.Text className="mb-2">
-            I am a CS major at the University of Texas at Austin.
+          <Card.Title as="h1" className="mb-3" style={{ fontSize: "2.7rem", fontWeight: 700 }}>Hello I'm Max Hartfield!</Card.Title>
+          <Card.Text className="mb-2" style={{ fontSize: "1.35rem" }}>
+            I am a CS major at the University of Texas at Austin, graduating in December 2025.
           </Card.Text>
-          <Card.Text>
-            Use the navigation bar to look at my projects and achievements!
+          <Card.Text style={{ fontSize: "1.15rem" }}>
+            Use the navigation bar to look at my projects, internships, and achievements!
           </Card.Text>
         </Card.Body>
       </Card>
