@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.9633e2fd.css",
-    "main.js": "/portfolio/static/js/main.345b5481.js",
+    "main.js": "/portfolio/static/js/main.2a48f007.js",
     "static/media/GymnasticsVideo3.mov": "/portfolio/static/media/GymnasticsVideo3.cc67558869239a16d2e3.mov",
     "static/media/GymnasticsVideo4.mov": "/portfolio/static/media/GymnasticsVideo4.ac3a0fe167444882f1bf.mov",
     "static/media/GymnasticsVideo2.mov": "/portfolio/static/media/GymnasticsVideo2.29bf895a15d516f547fb.mov",
@@ -39,8 +39,8 @@
     "static/media/fetch.png": "/portfolio/static/media/fetch.bf4980fd1466d9e2b490.png",
     "static/media/KeyFramingAnimation.pdf": "/portfolio/static/media/KeyFramingAnimation.4878af401557c0326867.pdf",
     "static/media/DMA.png": "/portfolio/static/media/DMA.05f1edfb8f82eeb9fcdb.png",
-    "static/media/Resume.png": "/portfolio/static/media/Resume.c3689212aa25949530d3.png",
     "static/media/AcceleratedStructures.pdf": "/portfolio/static/media/AcceleratedStructures.f4342471c192b5f0b625.pdf",
+    "static/media/Resume.png": "/portfolio/static/media/Resume.5972ef814b8d3766d12a.png",
     "static/media/FreeList.png": "/portfolio/static/media/FreeList.6235e8358afd50404b42.png",
     "static/media/RayTracingImg.png": "/portfolio/static/media/RayTracingImg.788d1e0882cdfb6f2231.png",
     "static/media/charm.png": "/portfolio/static/media/charm.7f72f979c0f857f4ffca.png",
@@ -60,9 +60,9 @@
     "static/media/EagleScout.png": "/portfolio/static/media/EagleScout.5a0401132d01a614ddc0.png",
     "static/media/UTCSShell.png": "/portfolio/static/media/UTCSShell.cabbea20bc6f202c8b6b.png",
     "static/media/Dodge-Adventure.png": "/portfolio/static/media/Dodge-Adventure.7473332490e378d8d7a3.png",
-    "static/media/resume.pdf": "/portfolio/static/media/resume.0b966b53d8fd1cde5840.pdf",
     "static/media/FileComparison.png": "/portfolio/static/media/FileComparison.7435d61c57ec2a8507b2.png",
     "static/media/EagleScout2.png": "/portfolio/static/media/EagleScout2.64c66e8379619853aa33.png",
+    "static/media/resume.pdf": "/portfolio/static/media/resume.35d12ac317893e723182.pdf",
     "static/media/FS.png": "/portfolio/static/media/FS.0e5d1c9636e8d288afc3.png",
     "static/media/Threads.png": "/portfolio/static/media/Threads.9f80deaf274f3e8fd0f8.png",
     "static/media/AccelerationStructuresImg.jpg": "/portfolio/static/media/AccelerationStructuresImg.3112f9ffe599f863feb4.jpg",
@@ -70,10 +70,10 @@
     "static/media/VM.png": "/portfolio/static/media/VM.bd433b30d3b1bd86eab7.png",
     "index.html": "/portfolio/index.html",
     "main.9633e2fd.css.map": "/portfolio/static/css/main.9633e2fd.css.map",
-    "main.345b5481.js.map": "/portfolio/static/js/main.345b5481.js.map"
+    "main.2a48f007.js.map": "/portfolio/static/js/main.2a48f007.js.map"
   },
   "entrypoints": [
     "static/css/main.9633e2fd.css",
-    "static/js/main.345b5481.js"
+    "static/js/main.2a48f007.js"
   ]
 }
