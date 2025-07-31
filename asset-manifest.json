@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.9633e2fd.css",
-    "main.js": "/portfolio/static/js/main.521086dd.js",
+    "main.js": "/portfolio/static/js/main.345b5481.js",
     "static/media/GymnasticsVideo3.mov": "/portfolio/static/media/GymnasticsVideo3.cc67558869239a16d2e3.mov",
     "static/media/GymnasticsVideo4.mov": "/portfolio/static/media/GymnasticsVideo4.ac3a0fe167444882f1bf.mov",
     "static/media/GymnasticsVideo2.mov": "/portfolio/static/media/GymnasticsVideo2.29bf895a15d516f547fb.mov",
@@ -15,7 +15,6 @@
     "static/media/OS.png": "/portfolio/static/media/OS.0ad37cfd5f07c6ad0a11.png",
     "static/media/cook.png": "/portfolio/static/media/cook.30b302701f9cbdbb26f0.png",
     "static/media/TTS7.png": "/portfolio/static/media/TTS7.c96b517a9d34ade3894e.png",
-    "static/media/Portfolio.png": "/portfolio/static/media/Portfolio.acb7101ecb650ddb34dd.png",
     "static/media/SkinningAndMeshInteractivity.pdf": "/portfolio/static/media/SkinningAndMeshInteractivity.c288e98e368ea4be5c3a.pdf",
     "static/media/TTS5.png": "/portfolio/static/media/TTS5.83c2daec46bad6ad824e.png",
     "static/media/Eagle-Project.jpg": "/portfolio/static/media/Eagle-Project.47f6972e4bba24df4b8e.jpg",
@@ -26,6 +25,7 @@
     "static/media/Eagle-Project5.jpeg": "/portfolio/static/media/Eagle-Project5.b985650d4c14aa1a57c4.jpeg",
     "static/media/GatherlyImg.png": "/portfolio/static/media/GatherlyImg.20c949d2b9bc3db1e734.png",
     "static/media/Eagle-Project4.jpeg": "/portfolio/static/media/Eagle-Project4.7418735b165f975a2c5e.jpeg",
+    "static/media/Portfolio.png": "/portfolio/static/media/Portfolio.f86efb86fa7219b20a8b.png",
     "static/media/RayTracing.pdf": "/portfolio/static/media/RayTracing.0198d804840e21e3edf8.pdf",
     "static/media/Welding.jpeg": "/portfolio/static/media/Welding.e01953c83c6a765d04ac.jpeg",
     "static/media/TTS4.png": "/portfolio/static/media/TTS4.69f316da2696fbacc3f7.png",
@@ -45,18 +45,23 @@
     "static/media/RayTracingImg.png": "/portfolio/static/media/RayTracingImg.788d1e0882cdfb6f2231.png",
     "static/media/charm.png": "/portfolio/static/media/charm.7f72f979c0f857f4ffca.png",
     "static/media/Cox.png": "/portfolio/static/media/Cox.1a84856dd51076f87590.png",
+    "static/media/LogExtractionTool.png": "/portfolio/static/media/LogExtractionTool.d4d3e7ce9660f6e4ab46.png",
     "static/media/TTS9.png": "/portfolio/static/media/TTS9.1f00056f8c266c31956e.png",
     "static/media/ComputerGraphicsImg.png": "/portfolio/static/media/ComputerGraphicsImg.5f5f79498ce4063e733f.png",
     "static/media/CoxPresentation.jpeg": "/portfolio/static/media/CoxPresentation.346893f65934f21ff4a0.jpeg",
     "static/media/SkinningAndMeshInteractivityImg.png": "/portfolio/static/media/SkinningAndMeshInteractivityImg.a779e0ade20c872ea8d6.png",
+    "static/media/TimingAnalysis.png": "/portfolio/static/media/TimingAnalysis.90e12f9ebdf403fd2086.png",
+    "static/media/LogExtraction.png": "/portfolio/static/media/LogExtraction.26687c98f423eabc07e3.png",
     "static/media/execute.png": "/portfolio/static/media/execute.33a7add3c34d0993c39a.png",
     "static/media/KeyFramingImg.jpg": "/portfolio/static/media/KeyFramingImg.6e1394fa9aa1254262a9.jpg",
     "static/media/GymnasticsImage.jpg": "/portfolio/static/media/GymnasticsImage.831612ccd9ca2f471c96.jpg",
+    "static/media/FlowChart.png": "/portfolio/static/media/FlowChart.e23bddefc811d1891243.png",
     "static/media/MengerSpongeImg.jpg": "/portfolio/static/media/MengerSpongeImg.eacec91c35c4e01d800c.jpg",
     "static/media/EagleScout.png": "/portfolio/static/media/EagleScout.5a0401132d01a614ddc0.png",
     "static/media/UTCSShell.png": "/portfolio/static/media/UTCSShell.cabbea20bc6f202c8b6b.png",
     "static/media/Dodge-Adventure.png": "/portfolio/static/media/Dodge-Adventure.7473332490e378d8d7a3.png",
     "static/media/resume.pdf": "/portfolio/static/media/resume.0b966b53d8fd1cde5840.pdf",
+    "static/media/FileComparison.png": "/portfolio/static/media/FileComparison.7435d61c57ec2a8507b2.png",
     "static/media/EagleScout2.png": "/portfolio/static/media/EagleScout2.64c66e8379619853aa33.png",
     "static/media/FS.png": "/portfolio/static/media/FS.0e5d1c9636e8d288afc3.png",
     "static/media/Threads.png": "/portfolio/static/media/Threads.9f80deaf274f3e8fd0f8.png",
@@ -65,10 +70,10 @@
     "static/media/VM.png": "/portfolio/static/media/VM.bd433b30d3b1bd86eab7.png",
     "index.html": "/portfolio/index.html",
     "main.9633e2fd.css.map": "/portfolio/static/css/main.9633e2fd.css.map",
-    "main.521086dd.js.map": "/portfolio/static/js/main.521086dd.js.map"
+    "main.345b5481.js.map": "/portfolio/static/js/main.345b5481.js.map"
   },
   "entrypoints": [
     "static/css/main.9633e2fd.css",
-    "static/js/main.521086dd.js"
+    "static/js/main.345b5481.js"
   ]
 }
