@@ -16,16 +16,15 @@ function App() {
         <Navbar />
         <div className="container mt-4 mb-5" style={{ flex: 1 }}>
           <Routes>
-            <Route path="/" element={<Navigate to="/portfolio" replace />} />
-            <Route path="/portfolio" element={<Home />} />
-            <Route path="/portfolio/projects" element={<Projects />} />
-            <Route path="/portfolio/projects/:projectId" element={<Projects />} />
-            <Route path="/portfolio/projects/:projectId/:subId" element={<Projects />} />
-            <Route path="/portfolio/achievements" element={<Achievements />} />
-            <Route path="/portfolio/achievements/:achievementId" element={<Achievements />} />
-            <Route path="/portfolio/internships" element={<Internships />} />
-            <Route path="/portfolio/internships/:internshipId" element={<Internships />} />
-            <Route path="/portfolio/resume" element={<Resume />} />
+            <Route path="/" element={<Home />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/projects/:projectId" element={<Projects />} />
+            <Route path="/projects/:projectId/:subId" element={<Projects />} />
+            <Route path="/achievements" element={<Achievements />} />
+            <Route path="/achievements/:achievementId" element={<Achievements />} />
+            <Route path="/internships" element={<Internships />} />
+            <Route path="/internships/:internshipId" element={<Internships />} />
+            <Route path="/resume" element={<Resume />} />
           </Routes>
         </div>
         <Footer />

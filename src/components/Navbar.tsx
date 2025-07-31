@@ -12,42 +12,42 @@ const NavigationBar: React.FC = () => {
   return (
     <Navbar bg="dark" variant="dark" expand="lg" className="mb-4">
       <Container>
-        <Navbar.Brand as={Link} to="/portfolio">Max Hartfield</Navbar.Brand>
+        <Navbar.Brand as={Link} to="/">Max Hartfield</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
             <Nav.Link 
               as={Link} 
-              to="/portfolio" 
-              active={isActive("/portfolio") && location.pathname === "/portfolio"}
+              to="/" 
+              active={isActive("/") && location.pathname === "/"}
             >
               Home
             </Nav.Link>
             <Nav.Link 
               as={Link} 
-              to="/portfolio/projects" 
-              active={isActive("/portfolio/projects")}
+              to="/projects" 
+              active={isActive("/projects")}
             >
               Projects
             </Nav.Link>
             <Nav.Link 
               as={Link} 
-              to="/portfolio/internships" 
-              active={isActive("/portfolio/internships")}
+              to="/internships" 
+              active={isActive("/internships")}
             >
               Internships
             </Nav.Link>
             <Nav.Link 
               as={Link} 
-              to="/portfolio/achievements" 
-              active={isActive("/portfolio/achievements")}
+              to="/achievements" 
+              active={isActive("/achievements")}
             >
               Achievements
             </Nav.Link>
             <Nav.Link 
               as={Link} 
-              to="/portfolio/resume" 
-              active={isActive("/portfolio/resume")}
+              to="/resume" 
+              active={isActive("/resume")}
             >
               Resume
             </Nav.Link>

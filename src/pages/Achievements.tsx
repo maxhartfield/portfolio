@@ -15,7 +15,7 @@ const Achievements: React.FC = () => {
     return (
       <CardGrid
         items={achievements}
-        basePath="/portfolio/achievements"
+        basePath="/achievements"
         title="Achievements"
         cols={{ xs: 1, sm: 2, md: 3 }}
         smallImgStyle={smallImgStyle}

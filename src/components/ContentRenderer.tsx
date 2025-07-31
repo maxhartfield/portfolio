@@ -23,6 +23,16 @@ const ContentRenderer: React.FC<ContentRendererProps> = ({
         );
       
       case 'image':
+        const getImageStyle = () => {
+          switch (section.imageSize) {
+            case 'small':
+              return { maxWidth: 400, width: "100%", height: "auto", margin: "0 auto", display: "block" };
+            case 'large':
+              return { maxWidth: 1000, width: "100%", height: "auto", margin: "0 auto", display: "block" };
+            default: // medium or undefined
+              return smallImgStyle;
+          }
+        };
         return (
           <Card.Img 
             key={index}
@@ -30,7 +40,7 @@ const ContentRenderer: React.FC<ContentRendererProps> = ({
             src={section.content as string} 
             alt="Content"
             className={section.className}
-            style={smallImgStyle}
+            style={getImageStyle()}
           />
         );
       

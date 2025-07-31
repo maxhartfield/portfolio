@@ -15,7 +15,7 @@ const Internships: React.FC = () => {
     return (
       <CardGrid
         items={internships}
-        basePath="/portfolio/internships"
+        basePath="/internships"
         title="Internships"
         cols={{ xs: 1, sm: 2, md: 3 }}
         smallImgStyle={smallImgStyle}

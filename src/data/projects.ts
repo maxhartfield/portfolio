@@ -2,6 +2,7 @@ export interface ContentSection {
   type: 'text' | 'image' | 'video' | 'image-grid' | 'video-grid' | 'pdf';
   content: string | string[] | { src: string; alt: string }[] | { src: string; title: string }[];
   className?: string;
+  imageSize?: 'small' | 'medium' | 'large';
 }
 
 export interface ProjectData {
@@ -17,6 +18,25 @@ export interface ProjectData {
 
 export const projects: ProjectData[] = [
   {
+    id: "gatherly",
+    title: "Gatherly",
+    image: require("../images/GatherlyImg.png"),
+    tags: [
+      "Swift", "Xcode", "Storyboard", "Mobile App", "iOS", "Firebase Authentication", "Firestore", "RSVP", "Calendar Sync", "Apple Calendar"
+    ],
+    description: "A mobile app to streamline party planning and event coordination.",
+    content: [
+      {
+        type: 'text',
+        content: `Gatherly is a mobile app designed to streamline party planning and event coordination. Built in Swift using Xcode and Storyboard, the app allows users to easily create parties, join events, update RSVPs, and view all upcoming invitations. Real-time data storage and authentication are handled through Firebase Authentication and Firestore, ensuring a seamless and secure experience for all users. One of Gatherly's standout features is calendar syncing, which lets users add events directly to their Apple Calendar from within the app. Check out the demo video below!`
+      },
+      {
+        type: 'video',
+        content: 'https://www.youtube.com/embed/YZNXz11_2XU'
+      }
+    ]
+  },
+  {
     id: "tts",
     title: "Trauma Support Website",
     image: require("../images/TTS.png"),
@@ -30,13 +50,17 @@ export const projects: ProjectData[] = [
         content: 'In my software engineering class at the University of Texas at Austin, I collaborated with 4 colleagues to build a dynamic React.js website hosted on AWS Amplify to aid trauma survivors. This project demonstrates my ability to develop full stack and utilize common software engineering practices like unit testing and continuous integration.'
       },
       {
+        type: 'text',
+        content: 'Here is the landing page. We utilized bootstrap to style the website and use components like the navigation bar.'
+      },
+      {
         type: 'image',
         content: require("../images/TTS.png"),
         className: 'mb-3'
       },
       {
         type: 'text',
-        content: 'Here is the landing page. We utilized bootstrap to style the website and use components like the navigation bar.'
+        content: 'This is the about page showing my collaborators. We utilized GitLab api to display the number of commits, issues closed, and unit tests written per person.'
       },
       {
         type: 'image',
@@ -45,7 +69,7 @@ export const projects: ProjectData[] = [
       },
       {
         type: 'text',
-        content: 'This is the about page showing my collaborators. We utilized GitLab api to display the number of commits, issues closed, and unit tests written per person.'
+        content: 'These are the therapists, trauma facilities, and trauma support group pages. In order to get the data for these page we utilized Puppeteer to programmatically scrape data from 3 data sources for 410 instances of therapists, 301 instances of trauma facilities, and 2851 instance of trauma support groups. We populated the data into a SQL database and implemented an API for the frontend to seamlessly retrieve the data from the backend.'
       },
       {
         type: 'image-grid',
@@ -58,7 +82,7 @@ export const projects: ProjectData[] = [
       },
       {
         type: 'text',
-        content: 'These are the therapists, trauma facilities, and trauma support group pages. In order to get the data for these page we utilized Puppeteer to programmatically scrape data from 3 data sources for 410 instances of therapists, 301 instances of trauma facilities, and 2851 instance of trauma support groups. We populated the data into a SQL database and implemented an API for the frontend to seamlessly retrieve the data from the backend.'
+        content: 'In the backend, we implemented searching for key words.'
       },
       {
         type: 'image',
@@ -67,7 +91,7 @@ export const projects: ProjectData[] = [
       },
       {
         type: 'text',
-        content: 'In the backend, we implemented searching for key words.'
+        content: 'We also implemented sorting and filtering by attributes of the data in all three pages'
       },
       {
         type: 'image',
@@ -76,7 +100,7 @@ export const projects: ProjectData[] = [
       },
       {
         type: 'text',
-        content: 'We also implemented sorting and filtering by attributes of the data in all three pages'
+        content: 'We developed navigation through the instances at the bottom of the pages.'
       },
       {
         type: 'image',
@@ -85,7 +109,7 @@ export const projects: ProjectData[] = [
       },
       {
         type: 'text',
-        content: 'We developed navigation through the instances at the bottom of the pages.'
+        content: 'We also integrated a global searching feature in the navigation bar at the top of all pages.'
       },
       {
         type: 'image',
@@ -94,7 +118,7 @@ export const projects: ProjectData[] = [
       },
       {
         type: 'text',
-        content: 'We also integrated a global searching feature in the navigation bar at the top of all pages.'
+        content: 'Finally, we demonstrate how to use our API to create visualizations of the data stored in our database on the visualizations page.'
       },
       {
         type: 'image',
@@ -103,60 +127,7 @@ export const projects: ProjectData[] = [
       },
       {
         type: 'text',
-        content: 'Finally, we demonstrate how to use our API to create visualizations of the data stored in our database on the visualizations page.'
-      },
-      {
-        type: 'text',
-        content: 'Ultimately, this was a great project to expand my software engineering skills. We utilized many tools like AWS, Docker, Postman, Jest, Selenium, and more.'
-      }
-    ]
-  },
-  {
-    id: "chess-website",
-    title: "Chess Website",
-    image: require("../images/Chess-Website.png"),
-    tags: ["JavaScript", "HTML", "CSS"],
-    description: "A website for two people to play chess on the same computer.",
-    content: [
-      {
-        type: 'text',
-        content: 'Chess Website is a website that two people can play chess on using the same computer. I tought myself HTML, CSS, and JavaScript and made this website over the summer of 2023 using what I learned. This project was extremely fun to make since I play chess as a hobby. This project demonstrates my ability to utilize HTML, CSS, and JavaScript to create a complex website from scratch.'
-      },
-      {
-        type: 'image',
-        content: require("../images/Chess-Website2.png"),
-        className: 'mb-3'
-      },
-      {
-        type: 'text',
-        content: 'The chess pieces are unicode characters. I implemented a user friendly design throughout this project with CSS. The possible moves for each piece are highlighted in green. The last move is highlighted in yellow. The clicked piece is highlighted in black. The hovered square is highlighted blue.'
-      },
-      {
-        type: 'image',
-        content: require("../images/Chess-Website3.png"),
-        className: 'mb-3'
-      },
-      {
-        type: 'text',
-        content: 'The king is highlighted red when in check. A message is printed at the bottom upon checkmate, stalemate, and insufficient material.'
-      },
-      {
-        type: 'image',
-        content: require("../images/Chess-Website4.png"),
-        className: 'mb-3'
-      },
-      {
-        type: 'text',
-        content: 'All the chess features like promotion, castling, en passant, pinned pieces, etc. are implemented.'
-      },
-      {
-        type: 'image',
-        content: require("../images/Chess-Website5.png"),
-        className: 'mb-3'
-      },
-      {
-        type: 'text',
-        content: 'I have added a board editor, so it is possible to start playing from any position. I have also added a undo function that undos the last move.'
+        content: 'Although I helped a lot in all parts of the project, I was primarily responsible for the sorting, filtering, and searching in the backend. Ultimately, this was a great project to expand my software engineering skills. We utilized many tools like AWS, Docker, Postman, Jest, Selenium, and more.'
       }
     ]
   },
@@ -178,22 +149,53 @@ export const projects: ProjectData[] = [
     ]
   },
   {
-    id: "os",
-    title: "OS Projects",
-    image: require("../images/OS.png"),
-    tags: [],
-    description: "Operating system projects including Pintos and UTCS Shell.",
-    isGroup: true,
-    subProjects: ["pintos", "utcs-shell"]
-  },
-  {
-    id: "comparch",
-    title: "Computer Architecture",
-    image: require("../images/charm.png"),
-    tags: [],
-    description: "Projects from computer architecture class, including chArm-v2 emulator.",
-    isGroup: true,
-    subProjects: ["charm", "dma"]
+    id: "chess-website",
+    title: "Chess Website",
+    image: require("../images/Chess-Website.png"),
+    tags: ["JavaScript", "HTML", "CSS"],
+    description: "A website for two people to play chess on the same computer.",
+    content: [
+      {
+        type: 'text',
+        content: 'Chess Website is a website that two people can play chess on using the same computer. I tought myself HTML, CSS, and JavaScript and made this website over the summer of 2023 using what I learned. This project was extremely fun to make since I play chess as a hobby. This project demonstrates my ability to utilize HTML, CSS, and JavaScript to create a complex website from scratch. Take a look yourself: maxhartfield.github.io/Chess-Website'
+      },
+      {
+        type: 'text',
+        content: 'The chess pieces are unicode characters. I implemented a user friendly design throughout this project with CSS. The possible moves for each piece are highlighted in green. The last move is highlighted in yellow. The clicked piece is highlighted in black. The hovered square is highlighted blue.'
+      },
+      {
+        type: 'image',
+        content: require("../images/Chess-Website2.png"),
+        className: 'mb-3'
+      },
+      {
+        type: 'text',
+        content: 'The king is highlighted red when in check. A message is printed at the bottom upon checkmate, stalemate, and insufficient material.'
+      },
+      {
+        type: 'image',
+        content: require("../images/Chess-Website3.png"),
+        className: 'mb-3'
+      },
+      {
+        type: 'text',
+        content: 'All the chess features like promotion, castling, en passant, pinned pieces, etc. are implemented.'
+      },
+      {
+        type: 'image',
+        content: require("../images/Chess-Website4.png"),
+        className: 'mb-3'
+      },
+      {
+        type: 'text',
+        content: 'I have added a board editor, so it is possible to start playing from any position. I have also added a undo function that undos the last move.'
+      },
+      {
+        type: 'image',
+        content: require("../images/Chess-Website5.png"),
+        className: 'mb-3'
+      },
+    ]
   },
   {
     id: "dodge-adventure",
@@ -209,24 +211,6 @@ export const projects: ProjectData[] = [
       {
         type: 'video',
         content: require("../videos/Dodge-Adventure.mov")
-      }
-    ]
-  },
-  {
-    id: "portfolio-website",
-    title: "Portfolio Website",
-    image: require("../images/Portfolio.png"),
-    tags: ["React.js", "TypeScript", "CSS", "Bootstrap"],
-    description: "This portfolio website, built with React and Bootstrap.",
-    content: [
-      {
-        type: 'text',
-        content: 'This website was made to demonstrate my skills and expand on my projects and achievements with pictures and videos. I created react components for each of the project descriptions to enhance reusability. I designed this website to be capable of adjusting to a variety of screen sizes. This project demonstrates my ability to use React, TypeScript, and CSS to make a website.'
-      },
-      {
-        type: 'image',
-        content: require("../images/Portfolio.png"),
-        className: 'mb-3'
       }
     ]
   },
@@ -247,21 +231,38 @@ export const projects: ProjectData[] = [
     ]
   },
   {
-    id: "gatherly",
-    title: "Gatherly",
-    image: require("../images/GatherlyImg.png"),
-    tags: [
-      "Swift", "Xcode", "Storyboard", "Mobile App", "iOS", "Firebase Authentication", "Firestore", "RSVP", "Calendar Sync", "Apple Calendar"
-    ],
-    description: "A mobile app to streamline party planning and event coordination.",
+    id: "os",
+    title: "OS Projects",
+    image: require("../images/OS.png"),
+    tags: [],
+    description: "Operating system projects including Pintos and UTCS Shell.",
+    isGroup: true,
+    subProjects: ["pintos", "utcs-shell"]
+  },
+  {
+    id: "comparch",
+    title: "Computer Architecture",
+    image: require("../images/charm.png"),
+    tags: [],
+    description: "Projects from computer architecture class, including chArm-v2 emulator.",
+    isGroup: true,
+    subProjects: ["charm", "dma"]
+  },
+  {
+    id: "portfolio-website",
+    title: "Portfolio Website",
+    image: require("../images/Portfolio.png"),
+    tags: ["React.js", "TypeScript", "CSS", "Bootstrap"],
+    description: "This portfolio website, built with React and Bootstrap.",
     content: [
       {
         type: 'text',
-        content: `Gatherly is a mobile app designed to streamline party planning and event coordination. Built in Swift using Xcode and Storyboard, the app allows users to easily create parties, join events, update RSVPs, and view all upcoming invitations. Real-time data storage and authentication are handled through Firebase Authentication and Firestore, ensuring a seamless and secure experience for all users. One of Gatherly's standout features is calendar syncing, which lets users add events directly to their Apple Calendar from within the app. Check out the demo video below to see Gatherly in action!`
+        content: 'This website was made to demonstrate my skills and expand on my projects and achievements with pictures and videos. I created react components for each of the project descriptions to enhance reusability. I designed this website to be capable of adjusting to a variety of screen sizes. This project demonstrates my ability to use React, TypeScript, and CSS to make a website.'
       },
       {
-        type: 'video',
-        content: 'https://www.youtube.com/embed/YZNXz11_2XU'
+        type: 'image',
+        content: require("../images/Portfolio.png"),
+        className: 'mb-3'
       }
     ]
   },
@@ -278,17 +279,12 @@ export const projects: ProjectData[] = [
         content: 'Pintos is a simple operating system framework for the 80x86 architecture. It supports kernel threads, loading and running user programs, and a file system. In my operating systems class at the University of Texas at Austin, I adjusted threads to handle priority scheduling and priority donation, implemented argument passing and 18 system calls for user programs to call upon, allowed stack growth and virtual memory with paging, and strengthened the file system to handle indexed and extensible files and subdirectories. I also handled synchronization for all of these features throughout the project. This project demonstrates my understanding of operating systems and how they are implemented.'
       },
       {
-        type: 'image',
-        content: require("../images/Threads.png"),
-        className: 'mb-2'
-      },
-      {
         type: 'text',
         content: 'In the threads portion of this project, I added a priority variable to the thread\'s TCB (Thread control block) and changed the ready queue to be sorted by a thread\'s priority. I also implemented a method to set the priority of a thread. Priority inversion, the problem when a low priority thread holds a mutex that a higher priority thread needs, is solved by priority donation. The higher priority thread donates its priority to the lower priority thread in order to get hold of the mutex it needs as fast as possible.'
       },
       {
         type: 'image',
-        content: require("../images/UserPrograms.png"),
+        content: require("../images/Threads.png"),
         className: 'mb-2'
       },
       {
@@ -297,7 +293,7 @@ export const projects: ProjectData[] = [
       },
       {
         type: 'image',
-        content: require("../images/VM.png"),
+        content: require("../images/UserPrograms.png"),
         className: 'mb-2'
       },
       {
@@ -306,13 +302,18 @@ export const projects: ProjectData[] = [
       },
       {
         type: 'image',
-        content: require("../images/FS.png"),
+        content: require("../images/VM.png"),
         className: 'mb-2'
       },
       {
         type: 'text',
         content: 'In the file systems portion of this project, I adjusted the file system to be a multilevel indexed structure with 10 direct blocks, 1 indirect block, and 1 double indirect block. I designed this structure to support files of all types of sizes. The maximum file size supported by this structure is 8459264 bytes. I also updated the write method to account for writes that extend a file. I added a current working directory to each thread and implemented system calls like chdir, mkdir, readdir, isdir, and inumber in order to allow the file system to support subdirectories.'
-      }
+      },
+      {
+        type: 'image',
+        content: require("../images/FS.png"),
+        className: 'mb-2'
+      },
     ]
   },
   {
@@ -327,13 +328,13 @@ export const projects: ProjectData[] = [
         content: 'In my operating systems class at the University of Texas at Austin, I built simple, fully-functioning Unix shell in C. This project demonstrates my ability to code in C and my understanding of how a shell operates in the OS.'
       },
       {
+        type: 'text',
+        content: 'I implemented built in commands of cd, exit, and path, and external commands that run from PATH which is default set to /bin. I also allowed the shell to support scripts, output redirection, and concurrent commands.'
+      },
+      {
         type: 'image',
         content: require("../images/UTCSShell.png")
       },
-      {
-        type: 'text',
-        content: 'I implemented built in commands of cd, exit, and path, and external commands that run from PATH which is default set to /bin. I also allowed the shell to support scripts, output redirection, and concurrent commands.'
-      }
     ]
   },
   // Computer Architecture Sub-projects
@@ -349,17 +350,12 @@ export const projects: ProjectData[] = [
         content: 'In my computer architecture class at the University of Texas at Austin, I implemented a pipeline with cache simulator for chArm-v2 instruction set architecture using C. The instructions in this subset of Arm A64 include LDUR, STUR, MOVK, MOVZ, ADRP, ADD, ADDS, SUB, SUBS, CMP, MVN, OR, EOR, ANDS, TST, LSL, LSR, UBFM, ASR, B, B.cond, BL, RET, NOP, and HLT. I programmed the five stages for each instruction: Fetch, Decode, Execute, Memory, and Writeback. I also handled the data and control hazards that come with this pipeline implementation.'
       },
       {
-        type: 'image',
-        content: require("../images/fetch.png"),
-        className: 'mb-2'
-      },
-      {
         type: 'text',
         content: 'In the fetch stage, I took the current PC (program counter) and fetched the instruction associated with it.'
       },
       {
         type: 'image',
-        content: require("../images/decode.png"),
+        content: require("../images/fetch.png"),
         className: 'mb-2'
       },
       {
@@ -368,7 +364,7 @@ export const projects: ProjectData[] = [
       },
       {
         type: 'image',
-        content: require("../images/execute.png"),
+        content: require("../images/decode.png"),
         className: 'mb-2'
       },
       {
@@ -377,12 +373,17 @@ export const projects: ProjectData[] = [
       },
       {
         type: 'image',
-        content: require("../images/m&w.png"),
+        content: require("../images/execute.png"),
         className: 'mb-2'
       },
       {
         type: 'text',
         content: 'In the memory stage, I accessed memory if it is needed to execute an instruction. I implemented a write back cache using LRU (Least Recently Used) replacement policy to improve the efficiency of this stage. In the writeback stage, I saved the result of the instruction.'
+      },
+      {
+        type: 'image',
+        content: require("../images/m&w.png"),
+        className: 'mb-2'
       },
       {
         type: 'text',
@@ -402,14 +403,14 @@ export const projects: ProjectData[] = [
         content: 'In my computer architecture class at the University of Texas at Austin, I created a dynamic memory allocator in C. This project demonstrates my understanding of the C language and how memory gets allocated and deallocated within the heap.'
       },
       {
+        type: 'text',
+        content: 'My implementation of malloc and free utilized a linked list that kept track of free blocks of memory. I stored meta data in each block like the size of the block, allocation status, and next block pointer. When the user calls malloc, my program looks for the first free block that fits the request, removes it from the free list, and returns it to the user. When the user calls free, my program will insert the block back into the free list in sorted order and coalesce with its neighbors if necessary. If there is no space in the free list, then my program will request more memory from the operating system.'
+      },
+      {
         type: 'image',
         content: require("../images/FreeList.png"),
         className: 'mb-2'
       },
-      {
-        type: 'text',
-        content: 'My implementation of malloc and free utilized a linked list that kept track of free blocks of memory. I stored meta data in each block like the size of the block, allocation status, and next block pointer. When the user calls malloc, my program looks for the first free block that fits the request, removes it from the free list, and returns it to the user. When the user calls free, my program will insert the block back into the free list in sorted order and coalesce with its neighbors if necessary. If there is no space in the free list, then my program will request more memory from the operating system.'
-      }
     ]
   },
   // Computer Graphics Sub-projects

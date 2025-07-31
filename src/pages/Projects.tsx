@@ -23,7 +23,7 @@ const Projects: React.FC = () => {
     return (
       <CardGrid
         items={mainProjects}
-        basePath="/portfolio/projects"
+        basePath="/projects"
         title="Projects"
         cols={{ xs: 1, sm: 2, md: 2, lg: 3 }}
         smallImgStyle={smallImgStyle}
@@ -43,7 +43,7 @@ const Projects: React.FC = () => {
       return (
         <CardGrid
           items={subProjectItems}
-          basePath={`/portfolio/projects/${projectId}`}
+          basePath={`/projects/${projectId}`}
           title={`${mainProject.title}`}
           cols={{ xs: 1, sm: 2, md: 2 }}
           smallImgStyle={{ maxWidth: 300, width: "100%", height: "auto", margin: "0 auto", display: "block" }}
